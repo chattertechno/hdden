@@ -1,0 +1,2 @@
+[error sending mail]: dedede@example.com DateTime: 2022-08-17 10:17:56
+[error sending mail]: deded@mail.com DateTime: 2022-08-17 10:26:03

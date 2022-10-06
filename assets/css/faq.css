@@ -1,0 +1,149 @@
+.seccionFaq {
+    width: 100%;
+    height: auto;
+    min-height: unset;
+    margin: 0;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.seccionFaq__contenedor {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: 'neutra';
+    font-size: 20px;
+}
+
+.seccionFaq__contenedor h1 {
+    margin: 0;
+    font-family: 'reckless';
+    font-size: 45px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    color: var(--verde);
+}
+
+.seccionFaq__indice {
+    padding-left: unset;
+}
+
+.seccionFaq__contenedor ul.seccionFaq__ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.seccionFaq__contenedor ul.seccionFaq__ul ul {
+    list-style: disc!important;
+}
+
+.seccionFaq__contenedor ul.seccionFaq__ul a,
+.seccionFaq__titulo {
+    font-family: 'reckless';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--negro);
+    text-decoration: none;
+}
+
+.seccionFaq__contenedor p,
+.seccionFaq__parrafo{
+    font-size: 18px;
+    font-family: 'neutra';
+    text-align: justify;
+    display: none;
+}
+
+.seccionFaq__parrafo ~ * {
+    display: none!important;
+}
+
+.seccionFaq__parrafo span.txt-dao {
+    border-bottom: 1px solid black;
+}
+
+.seccionFaq__li {
+    margin: 10px 0 10px 0;
+}
+
+.seccionFaq__li.active {
+    margin: 25px 0;
+}
+
+.seccionFaq__li.active .seccionFaq__titulo,
+.seccionFaq__contenedor ul.seccionFaq__ul a:hover {
+    color: var(--verde);
+    border-bottom: 1px solid;
+}
+
+.seccionFaq__li.active .seccionFaq__parrafo,
+.seccionFaq__li.active .seccionFaq__parrafo ~ * {
+    display: block!important;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .seccionFaq {
+        width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .seccionFaq__contenedor {
+        flex-direction: row;
+    }
+
+    .seccionFaq__contenedor h1 {
+        font-size: 11vw;
+        padding-bottom: unset;
+    }
+
+    .seccionFaq__indice {
+        padding-left: 160px;
+    }
+
+    .seccionFaq__contenedor p,
+    .seccionFaq__parrafo {
+        text-align: left;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .seccionFaq {
+        min-height: 95vh;
+    }
+
+    .seccionFaq__contenedor {
+        padding-top: 15%;
+        padding-bottom: 40px;
+    }
+    
+    .seccionFaq__contenedor ul.seccionFaq__ul a,
+    .seccionFaq__titulo {
+        font-size: 26px;
+    }
+
+    .seccionFaq__li {
+        margin: unset;
+    }
+
+    .seccionFaq__contenedor p,
+    .seccionFaq__parrafo {
+        font-size: 20px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

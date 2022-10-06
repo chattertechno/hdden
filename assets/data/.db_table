@@ -1,0 +1,27 @@
+CREATE TABLE `website_auction_reminder` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `last_name` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `email` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `country` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `remind_auction_dates` tinyint(1) DEFAULT 0,
+  `receive_news` tinyint(1) DEFAULT 0,
+  `created_at` timestamp NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
+
+CREATE TABLE `website_contact_us` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `email` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `mobile_code` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `mobile` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `nationality` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `location` varchar(45) COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `message` text COLLATE utf8_spanish2_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
+
+ALTER TABLE `website_contact_us` 
+ADD COLUMN `wallet` TEXT NULL DEFAULT NULL AFTER `location`

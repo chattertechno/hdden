@@ -1,0 +1,339 @@
+.seccionContactanos {
+    width: 100%;
+    height: auto;
+    min-height: unset;
+    margin: 0;
+    padding: 80px 15px 15px;
+    overflow: hidden;
+}
+
+.seccionContactanos__h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'reckless';
+    text-transform: uppercase;
+    color: var(--verde);
+    text-align: center;
+    letter-spacing: unset;
+    padding: 30px 0;
+}
+
+.seccionContactanos__formulario,
+.seccionContactanos__img {
+    width: 100%;
+    height: 100%;
+}
+
+.seccionContactanos__img {
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+}
+
+.seccionContactanos__img h3.seccionContactanos__h3--email {
+    cursor: pointer;
+    margin: 0;
+    font-size: 5vw;
+    font-weight: 400;
+    font-family: 'reckless';
+    color: var(--negro);
+    position: absolute;
+    transform: translate(25%, 10px);
+}
+
+.seccionContactanos__img h3.seccionContactanos__h3--email::before {
+    content: ' ';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: var(--verde);
+}
+
+.seccionContactanos__img h3.seccionContactanos__h3--email span {
+    display: block;
+    text-indent: 30px;
+}
+
+.seccionContactanos__img img {
+    width: 100%;
+    height: auto;
+}
+
+.seccionContactanos__formulario form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+    align-items: center;
+    grid-gap: 0;
+}
+
+.seccionContactanos__span {
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.col__form:nth-of-type(1) {
+    grid-column: 1 /2;
+    grid-row: 1 / 2;
+}
+
+.col__form:nth-of-type(2) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.col__form:nth-of-type(3) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    text-align: center;
+}
+
+/* formulario ---------------*/
+
+.seccionContactanos__formulario {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    padding: unset;
+    background-color: var(--blanco);
+    font-family: 'neutra';
+    font-size: 20px;
+    margin: 0;
+}
+
+.seccionContactanos__formulario.open {
+    display: grid;
+}
+
+.modal_close {
+    /* cursor: pointer; */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    line-height: 1;
+}
+
+.seccionContactanos__form-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    align-items: end;
+    justify-content: center;
+}
+
+.seccionContactanos__form-group label {
+    display: inline-block;
+    min-width: 100px;
+    line-height: 1;
+    margin: 0 0 5px;
+    font-family: 'neutra';
+    font-size: 18px;
+}
+
+.seccionContactanos__form-group input[type="text"],
+.seccionContactanos__form-group input[type="email"],
+.seccionContactanos__form-group textarea {
+    all: unset;
+    background-color: transparent;
+    color: var(--verde);
+    border-bottom: 1px solid var(--negro);
+    width: 100%;
+    font-size: 20px;
+}
+
+.seccionContactanos__form-group input[name="name"] {
+    text-transform: capitalize;
+}
+
+.seccionContactanos__form-group input[type="email"] {
+    text-transform: lowercase;
+}
+
+
+
+.seccionContactanos__form-group select {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--negro);
+    font-size: 20px;
+    color: var(--verde);
+}
+
+.seccionContactanos__form-group input[name="mobile"],
+.seccionContactanos__form-group select[name="mobile_code"] {
+    color: var(--verde);
+    font-size: 18px;
+    font-family: 'neutra';
+}
+
+
+.seccionContactanos__form-group select[name="mobile_code"] {
+    color: var(--negro)!important;
+    padding-left: unset!important;
+    font-size: 18px!important;
+}
+
+.seccionContactanos__form-group textarea {
+    color: var(--negro);
+    border-bottom: unset;
+    border: 1px solid var(--negro);
+    font-size: 20px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 200px;
+    resize: none;
+}
+
+.seccionContactanos__form-group textarea::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.seccionContactanos__form-group textarea::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.seccionContactanos__form-group textarea::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 1px solid #000;
+}
+
+.seccionContactanos__formulario .btn-enviar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--verde);
+    font-size: 2rem;
+    font-family: 'reckless';
+    border: 1px solid var(--verde);
+    cursor: pointer;
+}
+
+.seccionContactanos__formulario form .mensaje {
+    display: block;
+    width: 100%;
+    border-left: 4px solid white;
+    padding-left: 4px;
+    font-weight: 600;
+    font-family: 'neutra';
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .seccionContactanos {
+        padding: 130px 30px 30px;
+    }
+    
+    .seccionContactanos__form-group {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .seccionContactanos {
+        height: auto;
+        min-height: 95vh;
+    }
+
+    .seccionContactanos__h1 {
+        letter-spacing: 10px;
+        padding: unset;
+        font-size: 200px;
+    }
+
+    /* imagen  */
+    .seccionContactanos__img h3.seccionContactanos__h3--email {
+        font-size: 35px;
+        font-weight: 400;
+        transform: translate(132px, 10px);
+    }
+
+    .seccionContactanos__img img {
+        width: 50%;
+    }
+
+    .seccionContactanos__img h3.seccionContactanos__h3--email::before {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    /* formulario*/
+    .seccionContactanos__formulario {
+        width: 90%;
+        padding: 60px 25px 30px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .seccionContactanos__formulario form {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        grid-template-rows: 1fr;
+        align-items: center;
+        grid-gap: 50px;
+    }
+
+    .col__form:nth-of-type(1) {
+        grid-column: 1 /2;
+        grid-row: 1 / 2;
+    }
+
+    .col__form:nth-of-type(2) {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .col__form:nth-of-type(3) {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        text-align: unset;
+    }
+
+    .seccionContactanos__form-group input[type="text"],
+    .seccionContactanos__form-group input[type="email"],
+    .seccionContactanos__form-group textarea {
+        font-size: 40px;
+    }
+
+    .seccionContactanos__form-group select {
+        font-size: 40px;
+        font-family: 'neutra';
+    }
+    
+    option { 
+        font-size: 18px!important;
+    }
+
+    .seccionContactanos__form-group textarea {
+        height: 300px;
+        font-size: 18px;
+        font-family: 'neutra';
+    }
+
+    .seccionContactanos__formulario .btn-enviar {
+        width: 150px;
+        height: 150px;
+        font-size: 40px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

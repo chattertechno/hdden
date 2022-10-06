@@ -1,0 +1,725 @@
+.seccionDao {
+    font-family: 'reckless';
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*end|center*/
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    padding: 80px 15px 15px;
+    background-color: var(--blanco);
+}
+
+.seccionDao__capa {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 3;
+    padding: 6.5em;
+    margin-top: -504em;
+    margin-left: -504em;
+    border-radius: 508em;
+    position: absolute;
+    background: transparent;
+    border: 500em solid rgb(255, 255, 255);
+    /* filter: blur(5px);
+    -webkit-filter: blur(5px); */
+    -moz-border-radius: 506em;
+    -webkit-transition: opacity .5s ease;
+    -moz-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+}
+
+.seccionDao__imagen {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    object-position: right
+}
+
+.seccionDao__contenido {
+    width: 100%;
+    height: 80%;
+    z-index: 4;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionDao__titulo {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.seccionDao__columna2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 0;
+}
+
+.seccionDao__subcolumna-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /*center*/
+}
+
+.seccionDao__form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.seccionDao__form-group label {
+    display: inline-block;
+    min-width: 100px;
+    line-height: 1;
+    margin: 0 5px 5px 0;
+    text-align: left;
+    font-size: 1.30rem;
+    font-family: 'neutra';
+}
+
+.seccionDao__form-group span {
+    display: inline-block;
+    min-width: 200px;
+    line-height: 1;
+    margin: 0 0 5px 5px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.seccionDao__form-group--mint {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.seccionDao__form-group--mint-inner {
+    margin: unset;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    row-gap: 10px;
+}
+
+.seccionDao__subcolumna-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /*center*/
+    padding: unset;
+}
+
+.seccionDao__subcolumna-2 .seccionDao__form-group {
+    margin-bottom: 0.5rem;
+}
+
+.seccionDao__form-group--time {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.seccionDao__form-group--time-inner {
+    margin: unset;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    row-gap: unset;
+}
+
+.time-label {
+    all: unset;
+    font-size: 2.25rem;
+    color: var(--verde);
+    font-family: 'reckless';
+    justify-self: center;
+}
+
+.time-btn {
+    all: unset;
+    font-size: 2.25rem;
+    color: var(--negro);
+    font-family: 'reckless';
+    cursor: pointer;
+    justify-self: center;
+}
+
+.mint-progress {
+    margin: 20px 0 0 0;
+    color: #000;
+    border: 1px solid var(--verde);
+    background-color: var(--blanco);
+}
+
+.mint-green {
+    height: 17.5px;
+    color: #fff;
+    border: 1px solid var(--verde);
+    background-color: rgba(0, 255, 0, 0.3)
+}
+
+.mint-message {
+    font-family: 'neutra';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.txt-active {
+    color: #ED5A28 !important;
+}
+
+.txt-label {
+    font-size: 1.25rem !important;
+    min-width: 200px !important;
+    font-weight: 600 !important;
+    text-align: right !important;
+}
+
+.txt-label div {
+    display: inline-block;
+    border-bottom: 1px solid var(--negro) !important;
+}
+
+.txt-span {
+    font-family: neutra !important;
+    font-size: 1.25rem !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.mint-btn,
+.bid-btn {
+    all: unset;
+    width: 133px;
+    height: 50px;
+    background-color: var(--verde);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'neutra';
+    font-weight: 600;
+    cursor: pointer;
+    justify-self: center;
+}
+
+
+/* seccionDao2  */
+.seccionDao2 {
+    font-family: 'reckless';
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 0 15px 15px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.seccionDao2__contenido {
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionDao2__columna1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionDao2__date {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0 0 0;
+}
+
+.seccionDao2__info {
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccionDao2__date h2 {
+
+    font-weight: 400;
+    margin: 0;
+}
+
+.seccionDao2__date span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #B8BABC;
+    border: 1px solid #B8BABC;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.prev-date.active,
+.next-date.active {
+    color: var(--negro);
+    border: 1px solid var(--negro);
+}
+
+.seccionDao2__bid,
+.seccionDao2__treasury,
+.seccionDao2__number {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionDao2__treasury {
+    width: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.seccionDao2__bid,
+.seccionDao2__number {
+    justify-content: center;
+}
+
+.seccionDao2__bid--inner,
+.seccionDao2__treasury--inner,
+.seccionDao2__number--inner {
+    font-size: 1.25rem;
+    font-family: 'neutra';
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #6d7174;
+}
+
+.seccionDao2__bid--inner {
+    border-color: transparent;
+}
+
+.seccionDao2__bid--inner .bid-val {
+    font-size: 2rem;
+    font-family: 'reckless';
+}
+
+.seccionDao2__number--inner {
+    width: 100%;
+    justify-content: start;
+    font-size: 2.5rem;
+    font-family: 'reckless';
+    color: #ccc;
+    border-color: var(--verde);
+}
+
+.seccionDao2__number--inner .seccionDao2__bar span.bar {
+    margin: 4px 0 !important;
+}
+
+.number-val {
+    all: unset;
+    width: 100%;
+    text-align: left;
+    color: var(--negro);
+}
+
+.auction-info {
+    margin: 10px 0 30px 0;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auction-txt {
+    display: block;
+}
+
+.auction-time {
+    display: block;
+    color: var(--verde)
+}
+
+.seccionDao2__bar {
+    width: auto;
+    margin: 0 10px;
+    line-height: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionDao2__bar span.bar {
+    width: 18px;
+    height: 1.5px;
+    margin: 3px 0;
+    display: block !important;
+    background-color: black;
+}
+
+.seccionDao2__bar span:nth-of-type(2) {
+    width: 15px;
+}
+
+.seccionDao2__columna2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+.bid-btn {
+    font-size: 1.25rem;
+    width: 155px;
+    margin: 15px 0 0 0;
+}
+
+.seccionDao2__img {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    transform: unset;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.seccionDao2__img img {
+    width: 100%;
+    height: auto;
+}
+
+.bid-list--modal,
+.bid-list {
+    z-index: 4;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, -10%, 0);
+}
+
+.bid-list--modal ul,
+.bid-list ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bid-list--modal ul li,
+.bid-list ul li {
+    width: 100%;
+    margin: 10px 0;
+    font-family: 'reckless';
+    font-size: 1rem;
+    border-bottom: 1px solid #252424;
+    padding-bottom: 5px;
+}
+
+.bid-list a {
+    all: unset;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    font-family: 'neutra';
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bid-list::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.bid-list::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.bid-list::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 1px solid #000;
+}
+/* end seccionDao 2 */
+
+ /* modal all bids*/
+ .modal {
+    display: none;
+    position: fixed;
+    z-index: 99; /* Sit on top */
+    padding: 160px 15px 15px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(255,255,255); /* Fallback color */
+    background-color: rgba(255,255,255,0.5); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #000;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 450px;    
+    height: 60%;
+    max-height: 450px;
+    overflow: auto;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #aaaaaa;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-content .bid-list--modal {
+    align-items: center;
+    color: white;
+    transform: unset;
+    width: auto;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+/* scroll modal-content */
+.modal-content .bid-list--modal ul li {
+    padding: 0 0 10px 15px;
+    border-bottom: 1px solid;
+}
+
+.modal .modal-content::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.modal .modal-content::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+.modal .modal-content::-webkit-scrollbar-thumb {
+    background-color: #000;
+    outline: 1px solid #fff;
+}
+
+ /* end modal all bids*/
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .seccionDao {
+        align-items: center;
+    }
+
+    .modal-content { 
+        padding: 40px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* @seccionDao  */
+    /* @seccionDao */
+    .seccionDao {
+        padding: 60px 0 0 0;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .seccionDao__contenido {
+        width: 80%;
+        height: 80%;
+    }
+
+    .seccionDao__titulo {
+        font-size: 5vw;
+        font-weight: 400;
+    }
+
+    .seccionDao__columna2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .seccionDao__form-group,
+    .seccionDao__form-group--mint {
+        justify-content: start;
+    }
+
+    .seccionDao__form-group--mint-inner {
+        margin: 30px 0 0 110px;
+    }
+
+    .seccionDao__subcolumna-2 {
+        padding: 0 0 0 50px;
+    }
+
+    .seccionDao__form-group--time-inner {
+        margin: 0 0 0 220px;
+    }
+
+    .mint-btn,
+    .time-label,
+    .time-btn {
+        justify-self: start;
+    }
+
+    /* end @seccionDao */
+
+    /* @seccionDao2 */
+    .seccionDao2 {
+        height: 100vh;
+        padding: unset;
+        flex-direction: row;
+    }
+
+    .seccionDao2__contenido {
+        width: 95%;
+        height: 100%;
+        padding: 50px 0 0 0;
+        flex-direction: row;
+    }
+
+    .seccionDao2__columna1 {
+        width: 40%;
+        flex-direction: column;
+    }
+
+    .seccionDao2__date {
+        font-size: 2rem;
+        justify-content: start;
+        margin: unset;
+    }
+
+    .seccionDao2__info {
+        padding: 60px 0 0 60px;
+        align-items: start;
+    }
+
+    .auction-info {
+        align-items: start;
+    }
+
+    .seccionDao2__bid,
+    .seccionDao2__number {
+        justify-content: start;
+    }
+
+    .seccionDao2__bid--inner,
+    .seccionDao2__treasury--inner,
+    .seccionDao2__number--inner {
+        width: auto !important;
+    }
+
+    .seccionDao2__number--inner {
+        width: 70% !important;
+    }
+
+    .seccionDao2__columna2 {
+        width: 60%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .seccionDao2__treasury {
+        align-items: start;
+        justify-content: start;
+        margin: unset;
+    }
+
+    .seccionDao2__img {
+        width: 580px;
+        grid-column: 2/4;
+        grid-row: 2/4;
+        transform: translate3d(0px, -10%, 0);
+        justify-content: start;
+    }
+
+    .bid-list {
+        z-index: 4;
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        justify-content: start;
+        align-items: start;
+        transform: translate3d(0px, -50%, 0);
+    }
+
+    .bid-list ul {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .bid-list ul li {
+        width: 70%;
+    }
+
+    /* end @seccionDao2 */
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .seccionDao2__contenido {
+        padding: 160px 0 0 0;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

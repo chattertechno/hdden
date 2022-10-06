@@ -1,0 +1,125 @@
+.seccionTerms {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    margin:0;
+    padding: 70px 15px 15px;
+    overflow: hidden;
+}
+
+.seccionTerms__h1 {
+    margin: 0;
+    font-family: 'reckless';
+    font-size: 50px;
+    font-weight: 300;
+    padding: 20px 0 20px 0;
+    color: var(--verde);
+    line-height: 85%;
+    letter-spacing: 3px;
+}
+
+.seccionTerms__h1 span {
+    display: block;
+    text-indent: 60px;
+}
+
+.seccionTerms__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccionTerms__indice ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.seccionTerms__indice ul li { 
+    margin-bottom: 5px;
+}
+
+.seccionTerms__indice ul a,
+.seccionTerms__titulo {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'reckless';
+    color: var(--negro);
+    text-decoration: none;
+}
+
+.seccionTerms__indice ul a:hover,
+.seccionTerms__indice ul li.active a  {
+    color: var(--verde);
+    text-decoration: underline;
+}
+
+.seccionTerms__contenidos {
+    width: 100%;
+    padding: 0;
+}
+
+.seccionTerms__contenidos h2 {
+    margin: 0;
+    font-size: 26px;
+    text-align: left;
+    font-family: 'reckless';
+    padding: 20px 0;
+}
+.seccionTerms__contenidos h2:nth-of-type(1) {
+    padding: 0 0 20px;
+}
+
+.seccionTerms__texto p {
+    font-size: 18px;
+    font-family: 'neutra';
+    text-align: justify;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .seccionTerms {
+        width: 90%;
+        margin: 0 auto;
+        padding: 160px 30px 15px;
+    }
+
+    .seccionTerms__h1 {
+        font-size: 10vw;
+        padding: 20px 0 100px 0;
+    }
+
+    .seccionTerms__h1 span {
+        text-indent: 15%;
+    }
+
+    .seccionTerms__contenedor {
+        flex-wrap: unset;
+    }
+
+    .seccionTerms__texto p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .seccionTerms__contenidos {
+        width: 80%;
+        padding: 0 0 0 160px;
+    }
+
+    .seccionTerms__contenidos h2 {
+        font-size: 28px;
+    } }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
