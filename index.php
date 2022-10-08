@@ -114,7 +114,7 @@
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>
-    
+
     <script type="text/javascript" src="./assets/js/init.js"></script>
     <script type="text/javascript" src="./assets/js/hddenforms/index.js"></script>
 </body>
