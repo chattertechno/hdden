@@ -65,6 +65,16 @@
             <img class="seccion2__img main__logocollection" src="./assets/img/collection/logo-collection.png"
                 alt="logocollection">
 
+            <!-- Background video -->
+            <div class="video_wrap">
+                <video class="the_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
+                    poster="./assets/img/home.jpg">
+                    <source src="./assets/video/LoopWebsiteHF.mp4" type="" />
+                </video>
+                <div class="overlay"></div>
+            </div>
+            <!-- // Background video -->
+
             <!-- Section 2 -->
             <section class="seccion2">
                 <div class="seccion2__contenido">
