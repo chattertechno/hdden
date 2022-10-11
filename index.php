@@ -61,7 +61,6 @@
             <img class="seccion1__imagen an_revelar an_revelar_der"
                 src="./assets/img/collection/circulo-lineas-secc1.svg" alt="image">
         </section>
-
         <div class="main__contenedorLogoCollection">
             <img class="seccion2__img main__logocollection" src="./assets/img/collection/logo-collection.png"
                 alt="logocollection">
