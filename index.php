@@ -33,14 +33,6 @@
                 <source src="./assets/video/LoopWebsiteHF.mp4" type="video/mp4" />
             </video>
 
-            <!-- Youtube Background video -->
-            <iframe class="intro__contenido__video" width="100%" height="53%"
-                src="https://www.youtube.com/embed/Cs_ihm5_r58?playlist=Cs_ihm5_r58&loop=1&autoplay=1&&mute=1&controls=0"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <!-- // Youtube Background video -->
-
             <div class="intro__contenido__marquesina">
                 <div class="intro__contenido__marquesina--inner">
                     <p>&ensp;•&ensp;Web 3.0 Native Strategy</p>
@@ -73,25 +65,14 @@
             <img class="seccion2__img main__logocollection" src="./assets/img/collection/logo-collection.png"
                 alt="logocollection">
 
-            <!-- Youtube Background video -->
-            <div class="video_wrap">
-                <iframe class="the_video" width="100%" height="53%"
-                    src="https://www.youtube.com/embed/Qrg6t9oMcSc?playlist=Qrg6t9oMcSc&loop=1&autoplay=1&&mute=1&controls=0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <div class="overlay"></div>
-            </div>
-            <!-- // Youtube Background video -->
-
             <!-- Background video -->
-            <!-- <div class="video_wrap">
+            <div class="video_wrap">
                 <video class="the_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
                     poster="./assets/img/home.jpg">
                     <source src="./assets/video/LoopWebsiteHF.mp4" type="" />
                 </video>
                 <div class="overlay"></div>
-            </div> -->
+            </div>
             <!-- // Background video -->
 
             <!-- Section 2 -->
