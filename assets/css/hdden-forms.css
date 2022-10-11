@@ -216,7 +216,7 @@
   z-index: 2;
 }
 
-.seccion2 {
+.seccion2, .seccion2_backdrop {
   position: relative;
   z-index: 2;
   width: 100%;
@@ -225,9 +225,12 @@
   align-items: start;
   justify-content: center;
   overflow: hidden;
-  /* background-image: url('../img/collection/bg-collection_2.png'); */
   background-size: cover;
   padding: 60px 15px 15px
+}
+
+.seccion2_backdrop {
+  background-image: url('../img/collection/bg-collection_2.png');
 }
 
 .seccion2__contenido {
@@ -786,7 +789,7 @@ img.seccion2__img.main__logocollection {
     top: 444px;
     left: 73px;
     height: unset;
-    z-index: 2;
+    z-index: 99;
   }
 
   /* @seccion3  */
