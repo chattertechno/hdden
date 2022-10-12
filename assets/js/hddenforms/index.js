@@ -232,8 +232,8 @@ function animateMovimientoLogo(elemento, noX, noY, time) {
       x: randomX(-1),
       y: randomX(1),
     });
-    moveX(item, 1);
-    moveY(item, -1);
+    moveX(item, 3);
+    moveY(item, -7);
   });
 
   function moveX(target, direction) {
