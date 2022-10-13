@@ -33,8 +33,9 @@ function init() {
   }
 
   document.addEventListener("mousemove", positionCircle);
-  intro__contenido__capa.addEventListener("click", () => {
+  intro__contenido__capa.addEventListener("click", (e) => {
     scrollToSection(580);
+    animateCircleIntro(e);
   });
   intro__contenido__logohdden.addEventListener("click", () =>
     scrollToSection(580)
@@ -103,9 +104,10 @@ function init() {
 function positionCircle(e) {
   intro__contenido__capa.style.left = e.clientX + "px";
   intro__contenido__capa.style.top = e.clientY + "px";
+  return { x: e.clientX, y: e.clientY };
 }
 
-function animateCircle() {
+function animateCircleIntro(e) {
   gsap
     .timeline({
       scrollTrigger: {
@@ -127,9 +129,9 @@ function animateCircle() {
     .to(
       intro__contenido__capa,
       {
+        top: `calc(-${positionCircle(e).x}px - 28em)`,
+        left: `calc(-${positionCircle(e).y}px - 28em)`,
         padding: "108rem",
-        top: "-1500px",
-        left: "-1000px",
         borderRadius: "1008em",
       },
       ">"
@@ -220,8 +222,6 @@ function animateMoverLogo() {
   let screen_width = window.screen.width;
   let mov_top = "calc(50% - -157px)";
   let mov_left = "calc(50% - 507px)";
-
-  console.log(`width: ${screen_width}`);
 
   if (screen_width > 1900) {
     console.log("top and left changed");
@@ -333,8 +333,8 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.registerPlugin(ScrollTrigger);
   init();
   animateIntro();
-  animateCircle();
   animateMoverLogo();
+  animateCircleIntro();
   animateMovimientoLogo("img.main__logocollection", 20, 10, 3);
   animateMovimientoLogo("a.seccion3__link", 19, 29, 4);
   animateMovimientoLogo("div.obj1 > *", 10, 20, 5);
