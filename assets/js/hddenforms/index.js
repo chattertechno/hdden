@@ -33,7 +33,9 @@ function init() {
   }
 
   document.addEventListener("mousemove", positionCircle);
-  intro__contenido__capa.addEventListener("click", () => scrollToSection(580));
+  intro__contenido__capa.addEventListener("click", () => {
+    scrollToSection(580);
+  });
   intro__contenido__logohdden.addEventListener("click", () =>
     scrollToSection(580)
   );
@@ -101,6 +103,37 @@ function init() {
 function positionCircle(e) {
   intro__contenido__capa.style.left = e.clientX + "px";
   intro__contenido__capa.style.top = e.clientY + "px";
+}
+
+function animateCircle() {
+  gsap
+    .timeline({
+      scrollTrigger: {
+        trigger: seccion__intro,
+        start: "top top",
+        end: "bottom+=300vh",
+        scrub: true,
+        pin: true,
+        toggleActions: "play none none reverse",
+        markers: {
+          startColor: "red", //crimson
+          endColor: "red",
+          fontSize: "2rem",
+          fontWeight: "bold",
+        },
+        markers: false,
+      },
+    })
+    .to(
+      intro__contenido__capa,
+      {
+        padding: "108rem",
+        top: "-1500px",
+        left: "-1000px",
+        borderRadius: "1008em",
+      },
+      ">"
+    );
 }
 
 function animateIntro() {
@@ -300,6 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.registerPlugin(ScrollTrigger);
   init();
   animateIntro();
+  animateCircle();
   animateMoverLogo();
   animateMovimientoLogo("img.main__logocollection", 20, 10, 3);
   animateMovimientoLogo("a.seccion3__link", 19, 29, 4);
