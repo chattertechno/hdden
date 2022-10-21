@@ -329,6 +329,7 @@ function ocultar(elem) {
     autoAlpha: 0,
   });
 }
+
 document.addEventListener("DOMContentLoaded", function () {
   gsap.registerPlugin(ScrollTrigger);
   init();

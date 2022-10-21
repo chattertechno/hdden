@@ -1,16 +1,16 @@
 <?php
 
     echo '
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <img class="navbar__logohdden" src="./assets/img/hddenforms.svg" alt="Company Logo">
         <div class="navbar__menu-togle" id="navbar__mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-        <ul class="nav">
+        <ul class="nav" id="submenu_wrap">
             <li class="nav__item">
-                <ul class="nav__item-submenu">
+                <ul class="nav__item-submenu" id="submenu">
                     <li><a href="coming-soon.php">DAO</a></li>
                     <li><a href="whitemap.php">Whitemap</a></li>
                     <li><a href="index.php?collection" class="to__collection">Collection</a></li>

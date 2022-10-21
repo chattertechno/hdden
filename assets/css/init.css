@@ -213,6 +213,11 @@ header {
   padding: 0px 15px;
 }
 
+.navbar_scroll {
+  background-color: #ffffff;
+  padding: 0px 0px;
+}
+
 .navbar img {
   height: 50px;
   width: auto;
@@ -328,6 +333,11 @@ img.intro__contenido__logohdden {
   padding: 0;
   text-align: center;
   list-style-type: none;
+}
+
+.navbar_row {
+  display: flex;
+  flex-direction: row;
 }
 
 .navbar ul.nav li,

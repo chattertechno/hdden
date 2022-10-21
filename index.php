@@ -4,9 +4,12 @@
 <head>
     <?php require_once('./head_google_analytics_and_icon.php'); ?>
     <title>Hdden Forms</title>
+
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/init.css">
     <link rel="stylesheet" href="./assets/css/hdden-forms.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- JS -->
     <script src="./assets/js/jQuery1.7.2.min.js"></script>
     <script src="./assets/js/GSAP3.10.4.min.js"></script>
