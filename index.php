@@ -59,7 +59,7 @@
                 native strategy that allows us to tokenize our assets and
                 create a new business model: an economy in which we
                 are able to share our profits with our customers, and
-                which also effectively turns our customers into Based stakeholders with voting rights.
+                which also effectively turns our customers into stakeholders with voting rights.
             </p>
             <img class="seccion1__imagen an_revelar an_revelar_der"
                 src="./assets/img/collection/circulo-lineas-secc1.svg" alt="image">
