@@ -86,7 +86,7 @@ function navbar__onscroll(scroll) {
 
     // Submenu spacing
     for (const child of submenu.children) {
-      child.style.padding = "0 5px";
+      child.style.padding = "0 8px";
     }
   } else if (scroll <= 99) {
     // logo switch to normal
