@@ -219,9 +219,16 @@ header {
 }
 
 .navbar img {
-  height: 50px;
   width: auto;
   justify-self: start;
+}
+
+.navbar img.navbar__hddenlogo {
+  height: 35px;
+}
+
+.navbar img.navbar__logohdden {
+  height: 50px;
 }
 
 .navbar img.navbar__logohdden,

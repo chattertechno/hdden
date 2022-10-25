@@ -67,7 +67,9 @@ function scrollToSection(param, seconds = 2.5) {
 function navbar__onscroll(scroll) {
   let navbar = document.getElementById("navbar"),
     submenu = document.getElementById("submenu"),
-    submenu_wrap = document.getElementById("submenu_wrap");
+    submenu_wrap = document.getElementById("submenu_wrap"),
+    fulllogo = document.getElementById("fulllogo"),
+    emblem = document.getElementById("emblem");
 
   if (scroll >= 100) {
     navbar.classList.add("navbar_scroll");
@@ -75,13 +77,22 @@ function navbar__onscroll(scroll) {
 
     // styles
     navbar.style.height = "100%";
-    navbar.style.padding = "25px 35px 25px";
+    navbar.style.padding = "12px 25px";
     submenu_wrap.style.padding = "0 45px";
+
+    // logo switch to small
+    fulllogo.classList.add("hide");
+    emblem.classList.contains("hide") && emblem.classList.remove("hide");
+
+    // Submenu spacing
     for (const child of submenu.children) {
       child.style.padding = "0 5px";
     }
-    //
   } else if (scroll <= 99) {
+    // logo switch to normal
+    fulllogo.classList.contains("hide") && fulllogo.classList.remove("hide");
+    emblem.classList.add("hide");
+
     navbar.classList.remove("navbar_scroll");
     submenu.classList.remove("navbar_row");
     // styles
