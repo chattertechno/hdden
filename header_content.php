@@ -10,7 +10,7 @@
             <span class="bar"></span>
         </div>
         <ul class="nav" id="submenu_wrap">
-            <li class="nav__item">
+            <li class="nav__item" id="submenu_items">
                 <ul class="nav__item-submenu" id="submenu">
                     <li><a href="coming-soon.php">DAO</a></li>
                     <li><a href="whitemap.php">Whitemap</a></li>

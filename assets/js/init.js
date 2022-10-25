@@ -68,6 +68,7 @@ function navbar__onscroll(scroll) {
   let navbar = document.getElementById("navbar"),
     submenu = document.getElementById("submenu"),
     submenu_wrap = document.getElementById("submenu_wrap"),
+    submenu_items = document.getElementById("submenu_items"),
     fulllogo = document.getElementById("fulllogo"),
     emblem = document.getElementById("emblem");
 
@@ -77,8 +78,9 @@ function navbar__onscroll(scroll) {
 
     // styles
     navbar.style.height = "100%";
-    navbar.style.padding = "12px 25px";
+    navbar.style.padding = "8px 25px";
     submenu_wrap.style.padding = "0 45px";
+    submenu_items.style.padding = "2px 0 0 0";
 
     // logo switch to small
     fulllogo.classList.add("hide");
@@ -93,10 +95,13 @@ function navbar__onscroll(scroll) {
     fulllogo.classList.contains("hide") && fulllogo.classList.remove("hide");
     emblem.classList.add("hide");
 
+    // navbar remove scroll
     navbar.classList.remove("navbar_scroll");
     submenu.classList.remove("navbar_row");
+
     // styles
     navbar.style.padding = "25px 30px 0px";
     submenu_wrap.style.padding = "45px 0px 0px 15px";
+    submenu_items.style.padding = "0";
   }
 }
