@@ -33,7 +33,7 @@
 
             <video class="intro__contenido__video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
                 poster="./assets/img/home.jpg">
-                <source src="./assets/video/LoopWebsiteHF.mp4" type="video/mp4" />
+                <source src="./assets/video/main.mov" />
             </video>
 
             <div class="intro__contenido__marquesina">
@@ -70,7 +70,7 @@
             <div class="video_wrap">
                 <video class="the_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
                     poster="./assets/img/home.jpg">
-                    <source src="./assets/video/LoopWebsiteHF.mp4" type="" />
+                    <source src="./assets/video/main.mov" />
                 </video>
                 <div class="overlay"></div>
             </div>
