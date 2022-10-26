@@ -99,6 +99,11 @@ function navbar__onscroll(scroll) {
     navbar.classList.remove("navbar_scroll");
     submenu.classList.remove("navbar_row");
 
+    // Submenu spacing
+    for (const child of submenu.children) {
+      child.style.padding = "0px";
+    }
+
     // styles
     navbar.style.padding = "25px 30px 0px";
     submenu_wrap.style.padding = "45px 0px 0px 15px";
