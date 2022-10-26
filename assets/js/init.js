@@ -72,7 +72,7 @@ function navbar__onscroll(scroll) {
     fulllogo = document.getElementById("fulllogo"),
     emblem = document.getElementById("emblem");
 
-  if (scroll >= 100) {
+  if (scroll >= 450) {
     navbar.classList.add("navbar_scroll");
     submenu.classList.add("navbar_row");
 
@@ -90,7 +90,7 @@ function navbar__onscroll(scroll) {
     for (const child of submenu.children) {
       child.style.padding = "0 8px";
     }
-  } else if (scroll <= 99) {
+  } else if (scroll <= 449) {
     // logo switch to normal
     fulllogo.classList.contains("hide") && fulllogo.classList.remove("hide");
     emblem.classList.add("hide");
