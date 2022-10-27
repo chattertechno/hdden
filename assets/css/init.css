@@ -19,14 +19,14 @@
 @font-face {
   font-family: neutra;
   src: url("../font/NeutraText-Book.otf");
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
 @font-face {
   font-family: neutra-demi;
   src: url("../font/NeutraText-Demi.otf");
-  font-weight: 700;
+  font-weight: 400;
 }
 
 
@@ -231,7 +231,7 @@ header {
   height: 50px;
 }
 
-.navbar img.navbar__logohdden,
+.navbar img.navbar__logohdden, .navbar img.navbar__hddenlogo,
 img.intro__contenido__logohdden {
   cursor: pointer;
 }
