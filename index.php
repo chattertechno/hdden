@@ -70,7 +70,7 @@
             <div class="video_wrap">
                 <video class="the_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
                     poster="./assets/img/home.jpg">
-                    <source src="./assets/video/main.mov" />
+                    <source src="./assets/video/banner.mov" />
                 </video>
                 <div class="overlay"></div>
             </div>
