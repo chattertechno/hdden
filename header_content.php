@@ -23,7 +23,7 @@
             <li class="nav__item"><a href="https://twitter.com/HddenForms" target="_blank">Twitter</a></li>
             <!-- <li class="nav__item"><a href="coming-soon.php">Instagram</a></li> -->
 
-            <li class="nav__item">
+            <li class="nav__item" id="submenu__mint">
                 <a class="nav__item--mint" href="coming-soon.php">Mint Now</a>
             </li>
             <li class="nav__item">

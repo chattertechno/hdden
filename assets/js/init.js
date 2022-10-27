@@ -69,6 +69,7 @@ function navbar__onscroll(scroll) {
     submenu = document.getElementById("submenu"),
     submenu_wrap = document.getElementById("submenu_wrap"),
     submenu_items = document.getElementById("submenu_items"),
+    submenu_mint = document.getElementById("submenu__mint"),
     fulllogo = document.getElementById("fulllogo"),
     emblem = document.getElementById("emblem");
 
@@ -78,9 +79,10 @@ function navbar__onscroll(scroll) {
 
     // styles
     navbar.style.height = "100%";
-    navbar.style.padding = "3px 25px";
+    navbar.style.padding = "3px 34px 3px 25px";
     submenu_wrap.style.padding = "0 45px";
     submenu_items.style.padding = "2px 0 0 0";
+    submenu_mint.style.right = "160px";
 
     // logo switch to small
     fulllogo.classList.add("hide");
@@ -108,5 +110,6 @@ function navbar__onscroll(scroll) {
     navbar.style.padding = "25px 30px 0px";
     submenu_wrap.style.padding = "45px 0px 0px 15px";
     submenu_items.style.padding = "0";
+    submenu_mint.style.right = "0";
   }
 }
