@@ -46,7 +46,7 @@ jQuery(function () {
     else $(this).html("").html("<span>Connect to Wallet</span>");
   });
 
-  // plug
+  // scroll plug
   $(window).scroll((event) => {
     navbar__onscroll($(window).scrollTop());
   });

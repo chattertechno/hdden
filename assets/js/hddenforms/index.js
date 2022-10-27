@@ -255,6 +255,7 @@ function animateMoverLogo() {
 }
 
 function animateMovimientoLogo(elemento, noX, noY, time) {
+  console.log("AnimatetoLogo is fired");
   const array = document.querySelectorAll(elemento);
   const randomX = random(noX, 20);
   const randomY = random(noY, 30);
@@ -263,7 +264,7 @@ function animateMovimientoLogo(elemento, noX, noY, time) {
   array.forEach((item) => {
     TweenLite.set(item, {
       x: randomX(-1),
-      y: randomX(1),
+      y: randomY(1),
     });
     moveX(item, 3);
     moveY(item, -7);
@@ -332,14 +333,17 @@ function ocultar(elem) {
 
 document.addEventListener("DOMContentLoaded", function () {
   gsap.registerPlugin(ScrollTrigger);
+
   init();
   animateIntro();
   animateMoverLogo();
-  animateCircleIntro();
+
   animateMovimientoLogo("img.main__logocollection", 20, 10, 3);
   animateMovimientoLogo("a.seccion3__link", 19, 29, 4);
   animateMovimientoLogo("div.obj1 > *", 10, 20, 5);
   animateMovimientoLogo("div.obj2 .img", 20, 10, 3);
+
+  animateCircleIntro(); //** Important!! Do not move: Type error revokes child function execution */
 
   $(window).resize(function () {
     animateMoverLogo();
