@@ -294,6 +294,8 @@ function animateMovimientoLogo(elemento, noX, noY, time) {
 }
 
 function animateFrom(elem, direction) {
+  var tuto__para = elem.classList.contains("tuto__para"); // Additional selector for paragraph
+
   direction = direction || 1;
   var x = 0,
     y = direction * 100;
@@ -302,7 +304,7 @@ function animateFrom(elem, direction) {
     y = 0;
   } else if (elem.classList.contains("an_revelar_der")) {
     x = 100;
-    y = 0;
+    y = 25;
   }
   elem.style.transform = "translate(" + x + "px, " + y + "px)";
   elem.style.opacity = "0";
@@ -315,8 +317,8 @@ function animateFrom(elem, direction) {
     },
     {
       duration: 2.25,
-      x: 0,
-      y: 0,
+      x: tuto__para ? -125 : 0,
+      y: tuto__para ? -25 : 0,
       autoAlpha: 1,
       ease: "expo",
       overwrite: "auto",

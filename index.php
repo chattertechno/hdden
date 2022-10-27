@@ -53,7 +53,7 @@
                 <span class="an_revelar an_revelar_izq">Native</span>
                 <span class="an_revelar an_revelar_izq">Strategy</span>
             </h1>
-            <p class="seccion1__parrafo an_revelar an_revelar_der">
+            <p class="seccion1__parrafo an_revelar an_revelar_der tuto__para">
                 At Hdden Forms, we make exclusive limited editions of objects in wood, and we offer them using a Web 3.0
                 native strategy that allows us to tokenize our assets and create a new business model: an economy in
                 which we are able to share our profits with our customers, and which also effectively turns our

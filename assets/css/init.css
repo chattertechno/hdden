@@ -640,6 +640,7 @@ footer {
   .navbar ul.nav li,
   .nav__item-submenu li {
     margin-bottom: 0px;
+    
   }
 
   .navbar li {
@@ -652,6 +653,7 @@ footer {
 
   .nav__item-submenu {
     text-align: left;
+    line-height: 1.2;
   }
 
   .nav li.nav__item:nth-child(1) {
