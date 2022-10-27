@@ -2,8 +2,10 @@
 
     echo '
     <nav class="navbar" id="navbar">
-        <img id="fulllogo" class="navbar__logohdden" src="./assets/img/hddenforms.svg" height="50" alt="Company Logo">
-        <img id="emblem" class="navbar__hddenlogo hide" src="./assets/img/hddenlogo.svg" alt="Company Logo">
+        <a href="index.php">
+            <img id="fulllogo" class="navbar__logohdden" src="./assets/img/hddenforms.svg" height="50" alt="Company Logo">
+            <img id="emblem" class="navbar__hddenlogo hide" src="./assets/img/hddenlogo.svg" alt="Company Logo">
+        </a>
         <div class="navbar__menu-togle" id="navbar__mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
