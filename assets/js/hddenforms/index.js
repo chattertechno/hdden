@@ -129,8 +129,8 @@ function animateCircleIntro(e) {
     .to(
       intro__contenido__capa,
       {
-        top: `calc(-${e.clientX}px - 28em)`,
-        left: `calc(-${e.clientY}px - 28em)`,
+        top: `calc(-${e ? e.clientX : 50}px - 28em)`,
+        left: `calc(-${e ? e.clientY : 50}px - 28em)`,
         padding: "108rem",
         borderRadius: "1008em",
       },
