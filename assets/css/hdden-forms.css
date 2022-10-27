@@ -328,6 +328,7 @@ img.seccion2__img.main__logocollection {
   left: 0;
   object-fit: cover;
   position: absolute;
+  z-index: 9;
 }
 
 /* .seccion3__objeto.obj1 img,
