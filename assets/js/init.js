@@ -78,7 +78,7 @@ function navbar__onscroll(scroll) {
 
     // styles
     navbar.style.height = "100%";
-    navbar.style.padding = "8px 25px";
+    navbar.style.padding = "3px 25px";
     submenu_wrap.style.padding = "0 45px";
     submenu_items.style.padding = "2px 0 0 0";
 
