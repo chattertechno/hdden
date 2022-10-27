@@ -317,8 +317,8 @@ function animateFrom(elem, direction) {
     },
     {
       duration: 2.25,
-      x: tuto__para ? -125 : 0,
-      y: tuto__para ? -25 : 0,
+      x: tuto__para ? -130 : 0,
+      y: tuto__para ? -5 : 0,
       autoAlpha: 1,
       ease: "expo",
       overwrite: "auto",
