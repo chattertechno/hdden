@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function () {
   init();
   animateIntro();
   animateMoverLogo();
-  animateCircleIntro();
+
   animateMovimientoLogo("img.main__logocollection", 20, 10, 3);
   animateMovimientoLogo("a.seccion3__link", 19, 29, 4);
   animateMovimientoLogo("div.obj1 > *", 10, 20, 5);
