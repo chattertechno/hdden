@@ -753,9 +753,9 @@ img.seccion2__img.main__logocollection {
     /* text-align: left; */
   }
 
-  .seccion2__parrafo br {
-    /* display: block; */
-  }
+  /* .seccion2__parrafo br {
+    display: block; 
+  } */
 
   .seccion2__img {
     width: unset;
