@@ -67,6 +67,7 @@ function scrollToSection(param, seconds = 2.5) {
 function navbar__onscroll(scroll) {
   let navbar = document.getElementById("navbar"),
     submenu = document.getElementById("submenu"),
+    submenu__social = document.getElementById("submenu__social"),
     submenu_wrap = document.getElementById("submenu_wrap"),
     submenu_items = document.getElementById("submenu_items"),
     submenu_mint = document.getElementById("submenu__mint"),
@@ -76,6 +77,7 @@ function navbar__onscroll(scroll) {
   if (scroll >= 150) {
     navbar.classList.add("navbar_scroll");
     submenu.classList.add("navbar_row");
+    submenu__social.classList.add("navbar_row");
 
     // styles
     navbar.style.height = "100%";
@@ -88,8 +90,12 @@ function navbar__onscroll(scroll) {
     fulllogo.classList.add("hide");
     emblem.classList.contains("hide") && emblem.classList.remove("hide");
 
-    // Submenu spacing
+    // submenu spacing
     for (const child of submenu.children) {
+      child.style.padding = "0 8px";
+    }
+
+    for (const child of submenu__social.children) {
       child.style.padding = "0 8px";
     }
   } else if (scroll <= 149) {
@@ -100,8 +106,9 @@ function navbar__onscroll(scroll) {
     // navbar remove scroll
     navbar.classList.remove("navbar_scroll");
     submenu.classList.remove("navbar_row");
+    submenu__social.classList.remove("navbar_row");
 
-    // Submenu spacing
+    // submenu spacing
     for (const child of submenu.children) {
       child.style.padding = "0px";
     }
@@ -110,6 +117,5 @@ function navbar__onscroll(scroll) {
     navbar.style.padding = "25px 30px 0px";
     submenu_wrap.style.padding = "45px 0px 0px 15px";
     submenu_items.style.padding = "0";
-    submenu_mint.style.right = "0";
   }
 }

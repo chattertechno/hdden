@@ -21,8 +21,11 @@
                     <li><a href="faq.php">FAQ</a></li>
                 </ul>
             </li>
-            <li class="nav__item"><a href="coming-soon.php">Discord</a></li>
-            <li class="nav__item"><a href="https://twitter.com/HddenForms" target="_blank">Twitter</a></li>
+            <li class="nav__item socials" id="submenu__social">
+                <a href="coming-soon.php">Discord</a>
+                <a href="https://twitter.com/HddenForms" target="_blank">Twitter</a>
+            </li>
+            <li class="nav__item"></li>
             <!-- <li class="nav__item"><a href="coming-soon.php">Instagram</a></li> -->
 
             <li class="nav__item" id="submenu__mint">
