@@ -64,6 +64,7 @@ function scrollToSection(param, seconds = 2.5) {
   });
 }
 
+// ** Temporary */
 function navbar__onscroll(scroll) {
   let navbar = document.getElementById("navbar"),
     submenu = document.getElementById("submenu"),

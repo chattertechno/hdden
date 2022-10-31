@@ -1,7 +1,7 @@
 <?php
 
-    $enviroment = trim('localhost');
+    // $enviroment = trim('localhost');
     // $enviroment = trim('development');
-    // $enviroment = trim('production');
+    $enviroment = trim('production');
     putenv("APP_ENV=$enviroment");
 ?>
