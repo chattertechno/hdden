@@ -26,20 +26,19 @@
 
         <!-- object1 hero -->
         <section id="object1Hero" class="">
-
             <svg class="object1Himg" viewBox="3 -1.4 570 872">
-                <path class="object1Himg__sto_two"
+                <path class="object1Himg__sto_one"
                     d="M168.09 871.88H0V0h168.09v395.43c22.97-70.14 105.2-100.36 158.41-100.36 148.74 0 226.13 99.15 226.13 269.66v307.15H384.54V570.77c0-73.76-53.2-112.46-103.99-112.46s-112.46 29.02-112.46 114.88v298.69ZM459.43 0c56.83 0 102.79 42.33 102.79 97.95s-45.96 99.16-102.79 99.16-105.2-43.54-105.2-99.16S402.6 0 459.43 0Z" />
             </svg>
 
-            <img class="object1Hero__bg" src="./assets/img/home.jpg" alt="Object 1">
-            <h1 class="object1Hero__titulo">The Entombment Collection<br>Object 2</h1>
+            <img class="object1Hero__bg" src="./assets/img/bothobj.webp" alt="Object 1">
+            <h1 class="object1Hero__titulo">The Entombment Collection<br>Object 1</h1>
         </section>
 
         <!-- object1 Seciton 1 -->
         <section id="object1Section1">
             <div class="object1Section1_contenido">
-                <h2 class="object1Section1__titulo">The Entombment Collection<br> Object 2</h2>
+                <h2 class="object1Section1__titulo">The Entombment Collection<br> Object 1</h2>
 
                 <div class="object1Section1__ul">
                     <ul>
@@ -51,20 +50,20 @@
                     <ul>
                         <li>White Ash</li>
                         <li>Proprietary mix of waxes.</li>
-                        <li>75 cm. / 191 cm. / 91 cm.</li>
+                        <li>91 cm. / 191 cm. / 75 cm.</li>
                     </ul>
                 </div>
 
-                <p>Object 2 is the first object released from The Entombment Collection. It is constructed 100% entirely
-                    out
-                    of wood, with no metal supports of any type used for the complex system of joinery.</p>
-                <p>The positioning of the spheres, along with their small areas of contact, provide Object 2 with a
-                    false
-                    sense of frailty and imbalance, and the users with a sense of surprise when they find out the real
-                    sturdiness of the piece.</p>
+                <p>Object 1 is part of The Entombment: a collection of 2 functional pieces made from solid white ash. It
+                    is characterized by a seeming frailness, achieved by the juxtaposition of heavy and light elements
+                    and by the delicate touch between the components of the pieces and the pieces and the surface on
+                    which they stand.</p>
+                <p>The Greeks, unlike the Romans, always used columns structurally. Object 1 draws inspiration from the
+                    Greek column of the Doric order, which originated in wood. It formally simplifies the weight-bearing
+                    column and takes it back to its wooden beginnings..</p>
             </div>
 
-            <img class="object1Section1__photo" src="./assets/img/collection/photo1_obj2.png" alt="photo">
+            <img class="object1Section1__photo" src="./assets/img/obj1covered.webp" alt="photo">
         </section>
 
         <!-- object1 Seciton 2 -->
@@ -75,8 +74,8 @@
                 <a href="javascript:void(0)"
                     class="object1Section2_link btn btn-circulo-verde btn-circulo-verde--lg gs_reveal"
                     href="#object1Section2">Set an Auction<br> Reminder</a>
-                <img class="object1Section2__photo2 gs_reveal gs_reveal_fromLeft"
-                    src="./assets/img/collection/photo3_obj2.jpg" alt="Object">
+                <img class="object1Section2__photo2 gs_reveal gs_reveal_fromLeft" src="./assets/img/withrose.webp"
+                    alt="Object">
             </div>
         </section>
 
@@ -91,10 +90,10 @@
     </section> -->
         <section id="object1Section3">
             <div class="object1Section3_contenido">
-                <img class="object1Section3__photo1 gs_reveal gs_reveal_fromLeft"
-                    src="./assets/img/collection/photo4_obj2.jpg" alt="Object">
-                <img class="object1Section3__photo1 gs_reveal gs_reveal_fromRight"
-                    src="./assets/img/collection/photo5_obj2.jpg" alt="Object">
+                <img class="object1Section3__photo1 gs_reveal gs_reveal_fromLeft" src="./assets/img/obj2covered.webp"
+                    alt="Object">
+                <img class="object1Section3__photo1 gs_reveal gs_reveal_fromRight" src="./assets/img/withbook.webp"
+                    alt="Object">
                 <!-- <h2 class="object1Section3__titulo"><span>The Entombment Collection, Object 1,</span><a href="coming-soon.php">Coming soon...</a></h2> -->
                 <h2 class="object1Section3__titulo gs_reveal"><a href="coming-soon.php">Go to Next Object</a></h2>
             </div>

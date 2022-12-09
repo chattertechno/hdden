@@ -68,7 +68,7 @@ function init() {
   });
 
   hfseccion3__objeto1.addEventListener("click", () => {
-    this.window.location.href = "coming-soon.php";
+    this.window.location.href = "entombment-object1.php";
   });
 
   // objeto-2 --------------------------------------------------------------------

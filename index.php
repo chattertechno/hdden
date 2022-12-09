@@ -101,19 +101,11 @@
             <section class="seccion3">
                 <div class="seccion3__contenido">
                     <a href="whitemap.php" class="btn seccion3__link">Read Whitemap</a>
-
                     <div class="seccion3__objeto obj1 an_revelar an_revelar_der">
                         <img class="img" src="./assets/img/collection/objs/photo_obj1.jpg" alt="object1">
-                        <!-- <a class="seccion3__objetoLink" href="coming-soon.php">
-                            The Entombment Collection, Object 1, Coming soon...
-                        </a> -->
                     </div>
-
                     <div class="seccion3__objeto obj2 an_revelar an_revelar_izq">
                         <img class="img img1-obj2" src="./assets/img/collection/objs/photo_obj2.jpg" alt="object2">
-                        <!-- <a class="seccion3__objetoLink" href="entombment-object2.php">
-                            The Entombment Collection <br> Object 2
-                        </a> -->
                     </div>
                 </div>
             </section><!-- end Section 3 -->

@@ -72,11 +72,19 @@
   border-color: #ffffff;
 }
 
-.object1Himg .object1Himg__sto {
-  fill: #000;
-  stroke: #000;
+.object1Himg .object1Himg__sto_one, .object1Himg__sto_two  {
   stroke-width: 3;
   stroke-miterlimit: 10;
+}
+
+.object1Himg .object1Himg__sto_one {
+  fill: #fff;
+  stroke: #fff;
+}
+
+.object1Himg .object1Himg__sto_two {
+  fill: #000;
+  stroke: #000;
 }
 
 .object1Himg path {
@@ -84,14 +92,40 @@
   fill: none;
   stroke-dasharray: 10000;
   opacity: 1;
-
 }
 
-.animacion__letraH {
-  animation: animacion__letraH 4s cubic-bezier(0, 0.23, 1, .1) -0.5s;
+.animacion__letraH_one {
+  animation: animacion__letraH_one 4s cubic-bezier(0, 0.23, 1, .1) -0.5s;
 }
 
-@keyframes animacion__letraH {
+.animacion__letraH_two {
+  animation: animacion__letraH_two 4s cubic-bezier(0, 0.23, 1, .1) -0.5s;
+}
+
+@keyframes animacion__letraH_one {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 10000;
+  }
+
+  30% {
+    opacity: 0.5;
+    fill: none;
+    stroke-dashoffset: 10000;
+  }
+    
+  90% {
+    fill: #fff;
+  }
+
+  100% {
+    fill: #fff;
+    opacity: 1;
+  }
+}
+
+@keyframes animacion__letraH_two {
   0% {
     opacity: 0;
     fill: none;
