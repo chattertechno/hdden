@@ -31,7 +31,7 @@
                     d="M168.09 871.88H0V0h168.09v395.43c22.97-70.14 105.2-100.36 158.41-100.36 148.74 0 226.13 99.15 226.13 269.66v307.15H384.54V570.77c0-73.76-53.2-112.46-103.99-112.46s-112.46 29.02-112.46 114.88v298.69ZM459.43 0c56.83 0 102.79 42.33 102.79 97.95s-45.96 99.16-102.79 99.16-105.2-43.54-105.2-99.16S402.6 0 459.43 0Z" />
             </svg>
 
-            <img class="object1Hero__bg" src="./assets/img/bothobj.webp" alt="Object 1">
+            <img class="object1Hero__bg" src="./assets/img/obj1covered.webp" alt="Object 1">
             <h1 class="object1Hero__titulo">The Entombment Collection<br>Object 1</h1>
         </section>
 
@@ -63,7 +63,7 @@
                     column and takes it back to its wooden beginnings..</p>
             </div>
 
-            <img class="object1Section1__photo" src="./assets/img/obj1covered.webp" alt="photo">
+            <img id="obj1" class="object1Section1__photo" src="./assets/img/obj1transparent.webp" alt="photo">
         </section>
 
         <!-- object1 Seciton 2 -->

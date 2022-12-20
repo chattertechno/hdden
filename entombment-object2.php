@@ -64,7 +64,7 @@
                     sturdiness of the piece.</p>
             </div>
 
-            <img class="object1Section1__photo" src="./assets/img/collection/photo1_obj2.png" alt="photo">
+            <img id="obj2" class="object1Section1__photo" src="./assets/img/collection/photo1_obj2.png" alt="photo">
         </section>
 
         <!-- object1 Seciton 2 -->

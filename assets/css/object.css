@@ -72,19 +72,18 @@
   border-color: #ffffff;
 }
 
-.object1Himg .object1Himg__sto_one, .object1Himg__sto_two  {
-  stroke-width: 3;
-  stroke-miterlimit: 10;
-}
-
 .object1Himg .object1Himg__sto_one {
   fill: #fff;
   stroke: #fff;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
 }
 
 .object1Himg .object1Himg__sto_two {
   fill: #000;
   stroke: #000;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
 }
 
 .object1Himg path {
@@ -476,9 +475,18 @@
     height: 100vh;
   }
   
-  #object1Section1 img {
+  #object1Section1 #obj2 {
     width: 800px;
     max-width: 750px;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-65%, -50%);
+  }
+
+  #object1Section1 #obj1 {
+    width: 100%;
+    max-width: 1080px;
     position: absolute;
     left: 100%;
     top: 50%;
