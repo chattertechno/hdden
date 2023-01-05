@@ -244,31 +244,35 @@
             </div>
         </section>
     </main>
-    
+
+    <section>
+        <?php require_once('./extra_links.php'); ?>
+    </section>
+
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>
-    
+
     <script type="text/javascript" src="./assets/js/init.js"></script>
     <script>
-        let navbar__logohdden = document.querySelector('.navbar__logohdden')
-        navbar__logohdden.addEventListener("click", () => {
-            this.window.location.href = 'index.php'
-        })
+    let navbar__logohdden = document.querySelector('.navbar__logohdden')
+    navbar__logohdden.addEventListener("click", () => {
+        this.window.location.href = 'index.php'
+    })
 
-        let indice = document.querySelectorAll('.seccionCookie__li')
-        indice.forEach(item => {
-            item.addEventListener('click', event => {
+    let indice = document.querySelectorAll('.seccionCookie__li')
+    indice.forEach(item => {
+        item.addEventListener('click', event => {
 
-                if (item.classList.contains('active')) {
-                    item.classList.remove('active')
-                    return true
-                } else {
-                    indice.forEach(c => c.classList.remove('active'))
-                    item.classList.add('active')
-                }
-            })
+            if (item.classList.contains('active')) {
+                item.classList.remove('active')
+                return true
+            } else {
+                indice.forEach(c => c.classList.remove('active'))
+                item.classList.add('active')
+            }
         })
+    })
     </script>
 </body>
 

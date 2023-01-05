@@ -86,7 +86,11 @@
             </div>
         </section>
     </main>
-    
+
+    <section>
+        <?php require_once('./extra_links.php'); ?>
+    </section>
+
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>

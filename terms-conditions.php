@@ -689,95 +689,99 @@
         </section>
     </main>
 
+    <section>
+        <?php require_once('./extra_links.php'); ?>
+    </section>
+
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>
 
     <script type="text/javascript" src="./assets/js/init.js"></script>
     <script>
-        let navbar__logohdden = document.querySelector('.navbar__logohdden')
-        navbar__logohdden.addEventListener("click", () => {
-            this.window.location.href = 'index.php'
+    let navbar__logohdden = document.querySelector('.navbar__logohdden')
+    navbar__logohdden.addEventListener("click", () => {
+        this.window.location.href = 'index.php'
+    })
+
+    let indice = document.querySelectorAll('.seccionTerms__titulo')
+
+    var isMobile = false
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        isMobile = true
+    }
+
+    indice.forEach(item => {
+        item.addEventListener('click', event => {
+
+            let scroll_y = ''
+            let referencia_texto = item.querySelector('a').dataset.href
+            let nav_height = document.querySelector('header ul.nav').offsetHeight
+            let offset_top = document.querySelector(referencia_texto).offsetTop
+
+            if (isMobile) {
+                scroll_y = referencia_texto
+            } else {
+                scroll_y = offset_top - nav_height
+            }
+
+            gsap.timeline({
+                    ease: 'none',
+                    duration: 0,
+                })
+                .to(window, {
+                    duration: 3,
+                    delay: 0.6,
+                    scrollTo: {
+                        y: scroll_y,
+                    }
+                }).to(referencia_texto, {
+                    scale: 1.01
+                }, '>')
+
+            indice.forEach(c => c.classList.remove('active'))
+            item.classList.add('active')
         })
-
-        let indice = document.querySelectorAll('.seccionTerms__titulo')
-
-        var isMobile = false
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            isMobile = true
-        }
-
-        indice.forEach(item => {
-            item.addEventListener('click', event => {
-
-                let scroll_y = ''
-                let referencia_texto = item.querySelector('a').dataset.href
-                let nav_height = document.querySelector('header ul.nav').offsetHeight
-                let offset_top = document.querySelector(referencia_texto).offsetTop
-
-                if (isMobile) {
-                    scroll_y = referencia_texto
-                } else {
-                    scroll_y = offset_top - nav_height
-                }
-
-                gsap.timeline({
-                        ease: 'none',
-                        duration: 0,
-                    })
-                    .to(window, {
-                        duration: 3,
-                        delay: 0.6,
-                        scrollTo: {
-                            y: scroll_y,
-                        }
-                    }).to(referencia_texto, {
-                        scale: 1.01
-                    }, '>')
-
-                indice.forEach(c => c.classList.remove('active'))
-                item.classList.add('active')
-            })
-        })
+    })
     </script>
 
     <script>
-        let scroll__up = document.querySelector('div.scroll__up')
-        let indice_contenidos = document.querySelector('.seccionTerms__indice')
-        let contactus = document.querySelector('div.seccionTerms__texto.disclaimer')
-        let sticky = indice_contenidos.offsetTop;
-        let contactus_top = contactus.offsetTop;
+    let scroll__up = document.querySelector('div.scroll__up')
+    let indice_contenidos = document.querySelector('.seccionTerms__indice')
+    let contactus = document.querySelector('div.seccionTerms__texto.disclaimer')
+    let sticky = indice_contenidos.offsetTop;
+    let contactus_top = contactus.offsetTop;
 
-        scroll__up.addEventListener('click', function () {
-            scrollToSection(0)
-        })
+    scroll__up.addEventListener('click', function() {
+        scrollToSection(0)
+    })
 
-        window.onscroll = function () {
-            if (!isMobile) {
-                myFunction()
+    window.onscroll = function() {
+        if (!isMobile) {
+            myFunction()
+        } else {
+            let window_pffsetY = Math.max(window.pageYOffset)
+            if (window.pageYOffset > 100) {
+                scroll__up.style.opacity = 1;
             } else {
-                let window_pffsetY = Math.max(window.pageYOffset)
-                if (window.pageYOffset > 100) {
-                    scroll__up.style.opacity = 1;
-                } else {
-                    scroll__up.style.opacity = 0;
-                }
-            }
-        };
-
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-
-                indice_contenidos.classList.add("sticky");
-                if (window.pageYOffset >= contactus_top) {
-                    indice_contenidos.classList.add("sticky--top");
-                } else {
-                    indice_contenidos.classList.remove("sticky--top");
-                }
-            } else {
-                indice_contenidos.classList.remove("sticky");
+                scroll__up.style.opacity = 0;
             }
         }
+    };
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+
+            indice_contenidos.classList.add("sticky");
+            if (window.pageYOffset >= contactus_top) {
+                indice_contenidos.classList.add("sticky--top");
+            } else {
+                indice_contenidos.classList.remove("sticky--top");
+            }
+        } else {
+            indice_contenidos.classList.remove("sticky");
+        }
+    }
     </script>
 </body>
 

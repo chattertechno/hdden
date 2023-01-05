@@ -16,17 +16,17 @@
   --move-final: calc(-50% + var(--offset));
 }
 
-@font-face {
-  font-family: neutra;
+/* @font-face {
+  font-family: neutra-demixx;
   src: url("../font/NeutraText-Book.otf");
   font-weight: 400;
-}
+} */
 
 
 @font-face {
-  font-family: neutra-demi;
+  font-family: neutra;
   src: url("../font/NeutraText-Demi.otf");
-  font-weight: 700;
+  font-weight: 300;
 }
 
 

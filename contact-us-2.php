@@ -86,11 +86,15 @@
             </div>
         </section>
     </main>
-    
+
+    <section>
+        <?php require_once('./extra_links.php'); ?>
+    </section>
+
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>
-    
+
     <script type="text/javascript" src="./assets/js/init.js"></script>
     <script type="text/javascript" src="./assets/js/contact-us/index.js"></script>
 </body>

@@ -278,42 +278,46 @@
             </div>
         </div>
     </main>
-    
+
+    <section>
+        <?php require_once('./extra_links.php'); ?>
+    </section>
+
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>
-    
+
     <script type="text/javascript" src="./assets/js/init.js"></script>
     <script>
-        document.querySelector('.navbar__logohdden').addEventListener("click", () => {
-            this.window.location.href = 'index.php'
-        })
+    document.querySelector('.navbar__logohdden').addEventListener("click", () => {
+        this.window.location.href = 'index.php'
+    })
 
-        let seccionDao__capa = document.querySelector('.seccionDao__capa')
-        seccionDao__capa.style.left = 12.5 + '%'
-        seccionDao__capa.style.top = 52 + '%'
-        // document.addEventListener("mousemove", positionCircle);
-        // function positionCircle(e) {
-        //     seccionDao__capa.style.left = e.clientX + 'px';
-        //     seccionDao__capa.style.top = e.clientY + 'px';
-        // }
-        let btn_all_bids = document.querySelector('a.bid-view')
-        let modal = document.querySelector('#myModal')
-        let close = document.querySelector('#myModal .close')
+    let seccionDao__capa = document.querySelector('.seccionDao__capa')
+    seccionDao__capa.style.left = 12.5 + '%'
+    seccionDao__capa.style.top = 52 + '%'
+    // document.addEventListener("mousemove", positionCircle);
+    // function positionCircle(e) {
+    //     seccionDao__capa.style.left = e.clientX + 'px';
+    //     seccionDao__capa.style.top = e.clientY + 'px';
+    // }
+    let btn_all_bids = document.querySelector('a.bid-view')
+    let modal = document.querySelector('#myModal')
+    let close = document.querySelector('#myModal .close')
 
-        btn_all_bids.addEventListener("click", () => {
-            modal.style.display = "block";
-        })
+    btn_all_bids.addEventListener("click", () => {
+        modal.style.display = "block";
+    })
 
-        close.addEventListener("click", () => {
+    close.addEventListener("click", () => {
+        modal.style.display = "none";
+    })
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
             modal.style.display = "none";
-        })
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
         }
+    }
     </script>
 </body>
 

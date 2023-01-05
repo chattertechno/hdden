@@ -18,17 +18,9 @@
 
 @font-face {
   font-family: neutra;
-  src: url("../font/NeutraText-Book.otf");
-  font-weight: 400;
-}
-
-
-@font-face {
-  font-family: neutra-demi;
   src: url("../font/NeutraText-Demi.otf");
-  font-weight: 700;
+  font-weight: 100;
 }
-
 
 @font-face {
   font-family: reckless;
@@ -425,6 +417,35 @@ img.intro__contenido__logohdden {
 /*------------------------------------
 | Footer
 |-------------------------------------*/
+.fixed_buttons { 
+  width: 100%;
+  position: fixed;
+  z-index: 40;
+  bottom: 0;
+  right: 12%;
+  display: flex;
+  justify-content: right;
+}
+
+.fixed_buttons .wrapper {
+  width: max-content;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra_links {
+  background-color: #ffffff;
+  color: black;
+  padding: 15px 10px;
+  appearance: none;
+  border: none;
+  margin: 0 .5px;
+  cursor: pointer;
+  font-family: neutra
+}
+
 footer {
   width: 100%;
   height: 300px;

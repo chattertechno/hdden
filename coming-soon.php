@@ -44,15 +44,19 @@
         </section>
     </main>
 
+    <section>
+        <?php require_once('./extra_links.php'); ?>
+    </section>
+
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>
 
     <script type="text/javascript" src="./assets/js/init.js"></script>
     <script>
-        document.querySelector('.navbar__logohdden').addEventListener("click", () => {
-            this.window.location.href = 'index.php'
-        })
+    document.querySelector('.navbar__logohdden').addEventListener("click", () => {
+        this.window.location.href = 'index.php'
+    })
     </script>
 </body>
 

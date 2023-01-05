@@ -184,12 +184,12 @@
                                 real-world and digital assets. Just as important, they get <span class="txt-dao">equity
                                     and governing rights in the DAO</span>,
                                 a decentralized treasury that gets its income from 3 streams:
-                                <ul>
-                                    <li>50% of proceeds from every governance token sale</li>
-                                    <li>50% of royalties from secondary market sales</li>
-                                    <li>1 out of every 5 utility tokens which contain the real-world assets, as well as
-                                        the digital ones</li>
-                                </ul>
+                            <ul>
+                                <li>50% of proceeds from every governance token sale</li>
+                                <li>50% of royalties from secondary market sales</li>
+                                <li>1 out of every 5 utility tokens which contain the real-world assets, as well as
+                                    the digital ones</li>
+                            </ul>
                             </p>
                         </li>
                         <li class="seccionFaq__li">
@@ -267,30 +267,34 @@
         </section>
     </main>
 
+    <section>
+        <?php require_once('./extra_links.php'); ?>
+    </section>
+
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>
 
     <script type="text/javascript" src="./assets/js/init.js"></script>
     <script>
-        let navbar__logohdden = document.querySelector('.navbar__logohdden')
-        navbar__logohdden.addEventListener("click", () => {
-            this.window.location.href = 'index.php'
-        })
+    let navbar__logohdden = document.querySelector('.navbar__logohdden')
+    navbar__logohdden.addEventListener("click", () => {
+        this.window.location.href = 'index.php'
+    })
 
-        let indice = document.querySelectorAll('.seccionFaq__li')
-        indice.forEach(item => {
-            item.addEventListener('click', event => {
+    let indice = document.querySelectorAll('.seccionFaq__li')
+    indice.forEach(item => {
+        item.addEventListener('click', event => {
 
-                if (item.classList.contains('active')) {
-                    item.classList.remove('active')
-                    return true
-                } else {
-                    indice.forEach(c => c.classList.remove('active'))
-                    item.classList.add('active')
-                }
-            })
+            if (item.classList.contains('active')) {
+                item.classList.remove('active')
+                return true
+            } else {
+                indice.forEach(c => c.classList.remove('active'))
+                item.classList.add('active')
+            }
         })
+    })
     </script>
 </body>
 
