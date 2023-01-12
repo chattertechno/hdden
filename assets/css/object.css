@@ -54,7 +54,7 @@
 
 /* Icon H svg */
 .object1Himg {
-  fill: '#ffffff';
+  fill: #ffffff;
   stroke: #ffffff;
   opacity: 0;
   position: absolute;
@@ -75,22 +75,24 @@
 }
 
 .object1Himg .object1Himg__sto_one {
-  fill: #fff;
-  stroke: #fff;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
+  fill: #ffffff;
+  stroke: #ffffff;
 }
 
 .object1Himg .object1Himg__sto_two {
   fill: #000;
   stroke: #000;
+
+}
+
+.object1Himg__sto_one .object1Himg__sto_two {
   stroke-width: 3;
   stroke-miterlimit: 10;
 }
 
 .object1Himg path {
-  stroke: #fff;
-  fill: #fff;
+  stroke: #ffffff;
+  fill: #ffffff;
   stroke-dasharray: 10000;
   opacity: 1;
 }
@@ -106,22 +108,20 @@
 @keyframes animacion__letraH_one {
   0% {
     opacity: 0;
-    fill: #fff;
     stroke-dashoffset: 10000;
   }
 
   30% {
-    opacity: 0.5;
-    fill: #fff;
+    opacity: 0.5;    
     stroke-dashoffset: 10000;
   }
     
   90% {
-    fill: #fff;
+    fill: #ffffff;
   }
 
   100% {
-    fill: #fff;
+    fill: #ffffff;
     opacity: 1;
   }
 }
