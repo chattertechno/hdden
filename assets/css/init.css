@@ -585,7 +585,7 @@ footer {
   }
 
   100% {
-    transform: translateY(10);
+    transform: translateY(10px);
   }
 }
 
@@ -770,5 +770,16 @@ footer {
       width: 90%!important;
       padding: 45px 0px 0px 40px;
     }
+  }
+}
+
+/* ================================ */
+/* CHANGES MADE BY: OKKASHA ALLY */
+/* ================================ */
+@media (max-width: 990px) {
+  .navbar_row {
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
 }
