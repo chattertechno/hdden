@@ -10,10 +10,10 @@
               trigger: seccion1,
               scrub: true,
               pin: false,
-        
-                toggleActions: 'play none none reverse', //
+
+              toggleActions: 'play none none reverse', //
               markers: {
-                  startColor: 'plum',
+                          startColor: 'plum',
                   endColor: 'blue',
                   fontSize: '2rem',
                   fontWeight: 'bold'

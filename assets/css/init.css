@@ -782,4 +782,8 @@ footer {
     flex-direction: column;
     height: auto;
   }
+
+  .seccion1__parrafo {
+    transform: none !important;
+  }
 }
