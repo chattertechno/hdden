@@ -802,4 +802,57 @@ footer {
   .intro__contenido__capa {
     display: none !important;
   }
+
+  /*home: section 1 */
+  .seccion1 {
+    height: max-content !important;
+    padding-bottom: 30px !important;
+  }
+
+  .seccion1__imagen{
+    right: -144px !important;
+    bottom: -88px !important;
+    width: 182px !important;
+  }
+
+  /*home: section 2 */
+  .main__contenedorLogoCollection {
+    background: white !important;
+  }
+  img.seccion2__img.main__logocollection, .video_wrap {
+    display: none !important;
+  }
+
+  .seccion2 {
+    height: max-content !important;
+  }
+  .seccion2__parrafo {
+    padding-right: 10px;
+  }
+
+  /*home: section 3 */
+  .seccion3 {
+    height: max-content !important;
+    padding: 0 15px 30px !important;
+  }
+  .seccion3__link {
+    transform: none !important;
+    border-radius: 0 !important;
+    position: relative !important;
+    display: block !important;
+    margin: 40px auto  !important;
+    padding: 30px !important;
+    height: max-content !important;
+    width: max-content !important;
+  }
+
+  .seccion3__objeto  {
+    position: relative !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .seccion3__objeto img {
+    transform: none !important;
+  }
 }
