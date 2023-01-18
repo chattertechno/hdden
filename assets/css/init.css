@@ -777,13 +777,29 @@ footer {
 /* CHANGES MADE BY: OKKASHA ALLY */
 /* ================================ */
 @media (max-width: 990px) {
+  /*mobile nav */
   .navbar_row {
     display: flex;
     flex-direction: column;
     height: auto;
   }
 
+  /*homepage: section 1 */
   .seccion1__parrafo {
     transform: none !important;
+  }
+
+  /*home: intro/video section */
+  .pin-spacer {
+    padding: 0 !important;
+    height: 624px !important;
+  }
+
+  .seccion__intro {
+    height: 624px !important;
+  }
+
+  .intro__contenido__capa {
+    display: none !important;
   }
 }
