@@ -853,6 +853,7 @@ footer {
   }
 
   /* OBJECT 2 PAGE  */
+  /* Section1  */
   #object1Section1 {
     padding: 60px 15px !important;
     background: white !important;
@@ -863,6 +864,7 @@ footer {
     padding: 60px;
   }
 
+  /* Section2  */
   #object1Section2 {
     margin-top: -60px !important;
   }
@@ -873,5 +875,15 @@ footer {
     width: max-content !important;
     border-radius: 0 !important;
     padding: 30px !important;
+  }
+
+  /* Section3  */
+  #object1Section3 {
+    padding: 20px 15px 60px !important;
+  }
+
+  .object1Section3_contenido {
+    flex-direction: column !important;
+    gap: 20px;
   }
 }
