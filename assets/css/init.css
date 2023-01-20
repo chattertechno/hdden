@@ -855,4 +855,15 @@ footer {
   .seccion3__objeto img {
     transform: none !important;
   }
+
+  /* OBJECT 2 PAGE  */
+  #object1Section1 {
+    padding: 60px 15px !important;
+    background: white !important;
+  }
+
+  #object1Section1 img {
+    transform: none !important;
+    padding: 60px;
+  }
 }
