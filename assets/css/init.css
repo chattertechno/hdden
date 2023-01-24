@@ -821,6 +821,7 @@ footer {
 
   .seccion2 {
     height: max-content !important;
+    padding: 0 15px 60px !important;
   }
   .seccion2__parrafo {
     padding-right: 10px;
@@ -885,5 +886,11 @@ footer {
   .object1Section3_contenido {
     flex-direction: column !important;
     gap: 20px;
+  }
+
+  /*section 2 & 3 new mobile order */
+  .mobile_update {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }

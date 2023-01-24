@@ -76,6 +76,7 @@
             </div>
             <!-- // Background video -->
 
+<div class="mobile_update">
             <!-- Section 2 -->
             <section class="seccion2">
                 <div class="seccion2__contenido">
@@ -109,7 +110,7 @@
                     </div>
                 </div>
             </section><!-- end Section 3 -->
-
+</div>
         </div>
         <!-- end main__contenedorLogoCollection -->
     </main>
