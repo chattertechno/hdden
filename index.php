@@ -34,6 +34,7 @@
             <video class="intro__contenido__video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
                 poster="./assets/img/home.jpg">
                 <source src="./assets/video/main.mov" />
+                <source src="./assets/video/mobile_intro.mp4" type="video/mp4" media="all and (max-width: 768px)">
             </video>
 
             <div class="intro__contenido__marquesina">
