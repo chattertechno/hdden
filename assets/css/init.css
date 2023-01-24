@@ -893,4 +893,14 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
+
+  /*Header: navbar-fixed */
+  .navbar {
+    padding: 10px 20px !important;
+    height: max-content !important;
+  }
+
+  .navbar__logohdden {
+    margin-left: 10px;
+  }
 }
