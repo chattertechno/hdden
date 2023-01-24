@@ -903,4 +903,13 @@ footer {
   .navbar__logohdden {
     margin-left: 10px;
   }
+
+  /*Footer */
+  .footer__mail {
+    text-align: center;
+  }
+
+  .footer__social ul {
+    flex-direction: column;
+  }
 }
