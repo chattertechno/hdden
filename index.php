@@ -31,10 +31,13 @@
 
             <img class="intro__contenido__logohdden" src="./assets/img/hddenforms.svg" alt="hddenforms">
 
-            <video class="intro__contenido__video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
+            <video class="intro__contenido__video desktop_intro_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
                 poster="./assets/img/home.jpg">
-                <source class='desktop_intro_video' src="./assets/video/main.mov" />
-                <source class='mobile_intro_video' src="./assets/video/mobile_intro.mp4" type="video/mp4" media="all and (max-width: 768px)">
+                <source  src="./assets/video/main.mov" />
+            </video>
+            <video class="intro__contenido__video mobile_intro_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
+                poster="./assets/img/home.jpg">
+                <source src="./assets/video/mobile_intro.mp4" >
             </video>
 
             <div class="intro__contenido__marquesina">

@@ -773,10 +773,10 @@ footer {
 /* ================================ */
 /*Mobile intro video */
 .mobile_intro_video {
-  display: none;
+  display: none !important;
 }
 .desktop_intro_video {
-  display: block;
+  display: block !important;
 }
 @media (max-width: 990px) {
   /*mobile nav */
@@ -931,9 +931,9 @@ footer {
 
   /*Mobile intro video */
   .desktop_intro_video {
-    display: none;
+    display: none !important;
   }
   .mobile_intro_video {
-    display: block;
+    display: block !important;
   }
 }
