@@ -771,6 +771,13 @@ footer {
 /* ================================ */
 /* CHANGES MADE BY: OKKASHA ALLY */
 /* ================================ */
+/*Mobile intro video */
+.mobile_intro_video {
+  display: none;
+}
+.desktop_intro_video {
+  display: block;
+}
 @media (max-width: 990px) {
   /*mobile nav */
   .navbar_row {
@@ -920,5 +927,13 @@ footer {
 
   .footer__copyright {
     text-align: center;
+  }
+
+  /*Mobile intro video */
+  .desktop_intro_video {
+    display: none;
+  }
+  .mobile_intro_video {
+    display: block;
   }
 }
