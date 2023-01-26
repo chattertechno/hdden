@@ -641,3 +641,19 @@
 }
 
 /*</end> min-width: 1400px ------------------------------ */
+
+/* ================================ */
+/* CHANGES MADE BY: OKKASHA ALLY */
+/* ================================ */
+@media (max-width: 990px) {
+
+  /*Hero Section */
+  .object1Hero__bg {
+    object-position: center !important;
+  }
+
+  .object1Himg {
+    height: 60vh !important;
+    top: 25%;
+  }
+}
