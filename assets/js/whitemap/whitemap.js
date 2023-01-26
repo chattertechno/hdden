@@ -1,8 +1,10 @@
 window.addEventListener('load', function () {
     var BreakException = {};
     let isMobile = false
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
-        isMobile = true
+
+    // Uncomment code below to disable animation in mobile devices
+    // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+    //     isMobile = true
 
     let navbar = document.querySelector("header")
     let navbar__logohdden = navbar.querySelector(".navbar__logohdden")
@@ -19,7 +21,7 @@ window.addEventListener('load', function () {
     let letter2 = whitepaperSection2.querySelector('.whitepaperSection2__marquee-inner span');
 
 
-    if (isMobile == false) {
+    if (isMobile === false) {
         Timeline_WhitepaperSeccion1()
         Timeline_WhitepaperSeccion2()
         Timeline_WhitepaperSeccion3()
@@ -62,7 +64,7 @@ window.addEventListener('load', function () {
     gsap.to(whitepaperSectionAll[0], OptionsWhitepaper, '<')
     
     // Mostrar secciones c/efecto al usar scroll-down (despues de la 1)
-    if (isMobile == false) {    
+    if (isMobile === false) {
         whitepaperSectionAll.forEach((section, index) => {
             if (index > 0) {
                 // OptionsWhitepaper.opacity = 0.1
@@ -89,7 +91,7 @@ window.addEventListener('load', function () {
     let flecha__componente4 = Whitepaper__componente4.querySelector('.componente-4__arrow1')
     let cerrar__componente4 = Whitepaper__componente4.querySelector('.componente-4__cerrar1')
 
-    if (isMobile == false) {
+    if (isMobile === false) {
         whitepaper__circuloNo1.addEventListener('click', () => toggleComponente(Whitepaper__componente1, 'flex'))
         whitepaper__circuloNo2.addEventListener('click', () => toggleComponente(Whitepaper__componente2, 'flex'))
         Whitepaper__circuloNo3.addEventListener('click', () => toggleComponente(Whitepaper__componente3, 'flex'))
