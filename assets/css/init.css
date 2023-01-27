@@ -263,7 +263,7 @@ img.intro__contenido__logohdden {
   color: #000000;
   font-family: neutra;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px; /* 17 was before */
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
