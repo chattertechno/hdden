@@ -653,7 +653,9 @@
   }
 
   .object1Himg {
-    height: 60vh !important;
-    top: 25%;
+    /*height: 60vh !important;*/
+    /*top: 25%;*/
+    height: 80vh !important;
+    top: 14%;
   }
 }
