@@ -1,7 +1,9 @@
-var isMobile = false;
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    isMobile = true;
-}
+let isMobile = false;
+
+// // Uncomment code below to disable animation in mobile devices
+// if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+//     isMobile = true;
+// }
 
 
 function init() {

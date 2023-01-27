@@ -1,5 +1,5 @@
 window.addEventListener('load', function () {
-    var BreakException = {};
+    let BreakException = {};
     let isMobile = false
 
     // Uncomment code below to disable animation in mobile devices
