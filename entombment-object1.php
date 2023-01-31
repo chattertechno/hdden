@@ -54,16 +54,19 @@
                     </ul>
                 </div>
 
-                <p class="gs_reveal">Object 1 is part of The Entombment: a collection of 2 functional pieces made from solid white ash. It
+                <p class="gs_reveal gs_reveal_fromLeft">Object 1 is part of The Entombment: a collection of 2 functional pieces made from solid white ash. It
                     is characterized by a seeming frailness, achieved by the juxtaposition of heavy and light elements
                     and by the delicate touch between the components of the pieces and the pieces and the surface on
                     which they stand.</p>
-                <p class="gs_reveal">The Greeks, unlike the Romans, always used columns structurally. Object 1 draws inspiration from the
+                <p class="gs_reveal gs_reveal_fromLeft">The Greeks, unlike the Romans, always used columns structurally. Object 1 draws inspiration from the
                     Greek column of the Doric order, which originated in wood. It formally simplifies the weight-bearing
                     column and takes it back to its wooden beginnings..</p>
+
+                    <div class="relative">
+                                                    <img id="obj2" class="object1Section1__photo gs_reveal gs_reveal_fromRight" src="./assets/img/obj1transparentNew.webp" alt="photo">
+                                                      </div>
             </div>
 
-            <img id="obj1" class="object1Section1__photo" src="./assets/img/obj1transparent.webp" alt="photo">
         </section>
 
         <!-- object1 Seciton 2 -->

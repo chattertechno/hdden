@@ -62,11 +62,13 @@
                     false
                     sense of frailty and imbalance, and the users with a sense of surprise when they find out the real
                     sturdiness of the piece.</p>
+
+                    <div class="relative">
+                                <img id="obj2" class="object1Section1__photo gs_reveal gs_reveal_fromRight" src="./assets/img/collection/photo1_obj2.png" alt="photo">
+                                  </div>
             </div>
 
-             <div class="relative">
-            <img id="obj2" class="object1Section1__photo gs_reveal gs_reveal_fromRight" src="./assets/img/collection/photo1_obj2.png" alt="photo">
-              </div>
+
         </section>
 
         <!-- object1 Seciton 2 -->
