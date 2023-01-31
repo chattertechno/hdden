@@ -78,7 +78,7 @@ function navbar__onscroll(scroll) {
   if (scroll >= 150) {
     navbar.classList.add("navbar_scroll");
     submenu.classList.add("navbar_row");
-    submenu__social.classList.add("navbar_row");
+    // submenu__social.classList.add("navbar_row");
 
     // styles
     navbar.style.height = "100%";
