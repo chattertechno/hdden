@@ -121,12 +121,11 @@ function hide(elem) {
 
 document.addEventListener("DOMContentLoaded", function () {
   let isMobile = false;
-  if (
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    )
-  )
-    isMobile = true;
+  // // Uncomment code below to disable animation in mobile devices
+  // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  //     isMobile = true;
+  // }
+
 
   init();
   let object1Section2__modal = document.querySelector(".modal-reminder");

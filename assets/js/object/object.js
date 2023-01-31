@@ -1,11 +1,9 @@
 window.addEventListener("load", function () {
   let isMobile = false;
-  if (
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    )
-  )
-    isMobile = true;
+  // // Uncomment code below to disable animation in mobile devices
+  // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  //     isMobile = true;
+  // }
 
   // modal ----------------------
   const object1Section2__link = document.querySelector(".object1Section2_link");
