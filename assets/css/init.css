@@ -867,10 +867,10 @@ footer {
     background: white !important;
   }
 
-  #object1Section1 img {
-    transform: none !important;
-    padding: 60px;
-  }
+  /*#object1Section1 img {*/
+  /*  transform: none !important;*/
+  /*  padding: 60px;*/
+  /*}*/
 
   /* Section2  */
   #object1Section2 {

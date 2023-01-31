@@ -41,24 +41,24 @@
                 <h2 class="object1Section1__titulo">The Entombment Collection<br> Object 1</h2>
 
                 <div class="object1Section1__ul">
-                    <ul>
+                    <ul class="gs_reveal gs_reveal_fromLeft">
                         <li>Wood</li>
                         <li>Finish</li>
                         <li>Dimensions</li>
                     </ul>
 
-                    <ul>
+                    <ul class="gs_reveal gs_reveal_fromRight">
                         <li>White Ash</li>
                         <li>Proprietary mix of waxes.</li>
                         <li>91 cm. / 191 cm. / 75 cm.</li>
                     </ul>
                 </div>
 
-                <p>Object 1 is part of The Entombment: a collection of 2 functional pieces made from solid white ash. It
+                <p class="gs_reveal">Object 1 is part of The Entombment: a collection of 2 functional pieces made from solid white ash. It
                     is characterized by a seeming frailness, achieved by the juxtaposition of heavy and light elements
                     and by the delicate touch between the components of the pieces and the pieces and the surface on
                     which they stand.</p>
-                <p>The Greeks, unlike the Romans, always used columns structurally. Object 1 draws inspiration from the
+                <p class="gs_reveal">The Greeks, unlike the Romans, always used columns structurally. Object 1 draws inspiration from the
                     Greek column of the Doric order, which originated in wood. It formally simplifies the weight-bearing
                     column and takes it back to its wooden beginnings..</p>
             </div>
@@ -95,7 +95,7 @@
                 <img class="object1Section3__photo1 gs_reveal gs_reveal_fromRight" src="./assets/img/withbook.webp"
                     alt="Object">
                 <!-- <h2 class="object1Section3__titulo"><span>The Entombment Collection, Object 1,</span><a href="coming-soon.php">Coming soon...</a></h2> -->
-                <h2 class="object1Section3__titulo gs_reveal"><a href="coming-soon.php">Go to Next Object</a></h2>
+                <h2 class="object1Section3__titulo gs_reveal"><a href="entombment-object2.php">Go to Next Object</a></h2>
             </div>
         </section>
 
