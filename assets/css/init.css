@@ -792,9 +792,9 @@ footer {
   }
 
   /*home: intro/video section */
-  .pin-spacer {
+  .home .pin-spacer {
     padding: 0 !important;
-    /*height: 624px !important;*/
+    height: 624px !important;
   }
 
   .seccion__intro {

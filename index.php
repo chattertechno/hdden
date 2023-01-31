@@ -25,7 +25,7 @@
         <?php require_once('./header_content.php'); ?>
     </header>
 
-    <main class="main">
+    <main class="main home">
         <section class="seccion__intro">
             <div class="intro__contenido__capa"></div>
 
