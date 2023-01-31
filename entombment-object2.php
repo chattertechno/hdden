@@ -42,23 +42,23 @@
                 <h2 class="object1Section1__titulo">The Entombment Collection<br> Object 2</h2>
 
                 <div class="object1Section1__ul">
-                    <ul>
+                    <ul class="gs_reveal gs_reveal_fromLeft">
                         <li>Wood</li>
                         <li>Finish</li>
                         <li>Dimensions</li>
                     </ul>
 
-                    <ul>
+                    <ul class="gs_reveal gs_reveal_fromRight">
                         <li>White Ash</li>
                         <li>Proprietary mix of waxes.</li>
                         <li>75 cm. / 191 cm. / 91 cm.</li>
                     </ul>
                 </div>
 
-                <p>Object 2 is the first object released from The Entombment Collection. It is constructed 100% entirely
+                <p class="gs_reveal">Object 2 is the first object released from The Entombment Collection. It is constructed 100% entirely
                     out
                     of wood, with no metal supports of any type used for the complex system of joinery.</p>
-                <p>The positioning of the spheres, along with their small areas of contact, provide Object 2 with a
+                <p class="gs_reveal">The positioning of the spheres, along with their small areas of contact, provide Object 2 with a
                     false
                     sense of frailty and imbalance, and the users with a sense of surprise when they find out the real
                     sturdiness of the piece.</p>

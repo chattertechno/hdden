@@ -658,4 +658,8 @@
     height: 93vh !important;
     top: 8%;
   }
+
+  #obj2.object1Section1__photo {
+    transform: translate(27%, 1%) !important;
+  }
 }
