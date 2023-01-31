@@ -55,16 +55,18 @@
                     </ul>
                 </div>
 
-                <p class="gs_reveal">Object 2 is the first object released from The Entombment Collection. It is constructed 100% entirely
+                <p class="gs_reveal gs_reveal_fromLeft">Object 2 is the first object released from The Entombment Collection. It is constructed 100% entirely
                     out
                     of wood, with no metal supports of any type used for the complex system of joinery.</p>
-                <p class="gs_reveal">The positioning of the spheres, along with their small areas of contact, provide Object 2 with a
+                <p class="gs_reveal gs_reveal_fromLeft">The positioning of the spheres, along with their small areas of contact, provide Object 2 with a
                     false
                     sense of frailty and imbalance, and the users with a sense of surprise when they find out the real
                     sturdiness of the piece.</p>
             </div>
 
-            <img id="obj2" class="object1Section1__photo" src="./assets/img/collection/photo1_obj2.png" alt="photo">
+             <div class="relative">
+            <img id="obj2" class="object1Section1__photo gs_reveal gs_reveal_fromRight" src="./assets/img/collection/photo1_obj2.png" alt="photo">
+              </div>
         </section>
 
         <!-- object1 Seciton 2 -->

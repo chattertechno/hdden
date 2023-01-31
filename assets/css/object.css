@@ -659,7 +659,15 @@
     top: 8%;
   }
 
+  .relative {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
  .object1Section1__photo {
-    transform: translate(27%, 1%) !important;
+    /*transform: translate(27%, 1%) !important;*/
+   position: absolute !important;
+   top: 0 !important;
+   left: 80px !important;
   }
 }
