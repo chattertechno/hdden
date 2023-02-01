@@ -32,11 +32,11 @@
             <img class="intro__contenido__logohdden" src="./assets/img/hddenforms.svg" alt="hddenforms">
 
             <video class="intro__contenido__video desktop_intro_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
-                poster="./assets/img/home.jpg">
+                poster="./assets/img/home.jpg" playsinline>
                 <source  src="./assets/video/main.mov" />
             </video>
             <video class="intro__contenido__video mobile_intro_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
-                poster="./assets/img/home.jpg">
+                poster="./assets/img/home.jpg" playsinline>
                 <source src="./assets/video/mobile_intro.mp4" type="video/mp4">
             </video>
 
