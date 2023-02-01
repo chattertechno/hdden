@@ -260,7 +260,7 @@ img.intro__contenido__logohdden {
 }
 
 .nav__item a {
-  /*color: #000000;*/
+  color: #000000;
   font-family: 'neutra';
   font-size: 20px; /* 17 was before */
   text-decoration: none;
