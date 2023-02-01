@@ -339,7 +339,7 @@
 
     <!-- COMPONENTE 1 -->
     <div class="componente componente-1">
-        <a href="javascript:void(0)" class="componente_cerrar">✕ <span>Close</span></a>
+        <a href="javascript:void(0)" class="componente_cerrar"> ✕ <span>Close</span></a>
         <img class="componente-1__titulo-img" src="./assets/img/whitemap/company.svg" alt="Company">
         <img class="componente-1__ornament" src="./assets/img/whitemap/circle.svg" alt="Circulo">
 
@@ -579,7 +579,7 @@
                             </a>
                         </li>
 
-                        <li>
+                        <li class="mt-20">
                             <a class="componente-4__arrow1" href="javascript:void(0)"><img
                                     src="./assets/img/whitemap/flecha-roja.svg" alt="flecha"></a>
                         </li>

@@ -2348,4 +2348,33 @@ body {
     height: max-content !important;
     padding-bottom: 80px;
   }
+
+  .componente-1__contenido, .componente-2__contenido, .componente-3__contenido, .componente-4__contenido
+  {
+    display: block !important;
+  }
+
+  .componente-2__arrow1 {
+    z-index: 10;
+    position: relative !important;
+  }
+  .componente-4__valuable-assets {
+    transform: none !important;
+  }
+  .componente-4__valuable-assets-title {
+    display: block !important;
+    margin: 40px 0 !important;
+  }
+
+  .componente-4__valuable-assets ul {
+    flex-wrap: wrap;
+  }
+
+  .componente-4__valuable-assets ul li {
+    margin-right: 17px;
+  }
+
+  .mt-20 {
+    margin-top: 20px
+  }
 }
