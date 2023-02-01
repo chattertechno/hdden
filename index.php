@@ -37,7 +37,7 @@
             </video>
             <video class="intro__contenido__video mobile_intro_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
                 poster="./assets/img/home.jpg">
-                <source src="./assets/video/mobile_intro.mp4" >
+                <source src="./assets/video/mobile_intro.mp4" type="video/mp4">
             </video>
 
             <div class="intro__contenido__marquesina">
