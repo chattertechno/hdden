@@ -2338,3 +2338,14 @@ body {
 }
 
 /* end 1400px ------------------------------------------------------------------- */
+
+
+/* ================================ */
+/* CHANGES MADE BY: OKKASHA ALLY */
+/* ================================ */
+@media (max-width: 990px) {
+  #whitepaperSection {
+    height: max-content !important;
+    padding-bottom: 80px;
+  }
+}
