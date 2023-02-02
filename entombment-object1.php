@@ -63,7 +63,7 @@
                     column and takes it back to its wooden beginnings..</p>
 
                     <div class="relative">
-                                                    <img id="obj2" class="object1Section1__photo gs_reveal gs_reveal_fromRight" src="./assets/img/obj1transparentNew.webp" alt="photo">
+                                                    <img id="obj2" class="object1Section1__photo gs_reveal" src="./assets/img/obj1transparentNew.webp" alt="photo">
                                                       </div>
             </div>
 

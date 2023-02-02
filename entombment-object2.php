@@ -64,7 +64,7 @@
                     sturdiness of the piece.</p>
 
                     <div class="relative">
-                                <img id="obj2" class="object1Section1__photo gs_reveal gs_reveal_fromRight" src="./assets/img/collection/photo1_obj2.png" alt="photo">
+                                <img id="obj2" class="object1Section1__photo gs_reveal" src="./assets/img/collection/photo1_obj2.png" alt="photo">
                                   </div>
             </div>
 
