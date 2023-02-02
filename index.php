@@ -32,11 +32,11 @@
             <img class="intro__contenido__logohdden" src="./assets/img/hddenforms.svg" alt="hddenforms">
 
             <video class="intro__contenido__video desktop_intro_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
-                poster="./assets/img/home.jpg" playsinline>
+                poster="./assets/img/home.jpg" playsinline="playsinline">
                 <source  src="./assets/video/main.mov" />
             </video>
             <video class="intro__contenido__video mobile_intro_video" autoplay="autoplay" loop="loop" preload="auto" volume="0" muted
-                poster="./assets/img/home.jpg" playsinline>
+                poster="./assets/img/home.jpg" playsinline="playsinline">
                 <source src="./assets/video/mobile_intro.mp4" type="video/mp4">
             </video>
 
@@ -126,7 +126,10 @@
     <footer>
         <?php require_once('./footer_content.php'); ?>
     </footer>
+<script>
+        document.querySelector('video').play();
 
+</script>
     <script type="text/javascript" src="./assets/js/init.js"></script>
     <script type="text/javascript" src="./assets/js/hddenforms/index.js"></script>
 </body>
