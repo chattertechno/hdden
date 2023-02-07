@@ -793,11 +793,11 @@ footer {
   /*home: intro/video section */
   .home .pin-spacer {
     padding: 0 !important;
-    height: 624px !important;
+    height: 100vh !important;
   }
 
   .seccion__intro {
-    height: 624px !important;
+    height: 100vh !important;
   }
 
   .intro__contenido__capa {
@@ -934,5 +934,6 @@ footer {
   }
   .mobile_intro_video {
     display: block !important;
+    height: 100vh !important;
   }
 }
