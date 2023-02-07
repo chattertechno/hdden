@@ -936,4 +936,10 @@ footer {
     display: block !important;
     height: 100vh !important;
   }
+
+  .nav__item.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
