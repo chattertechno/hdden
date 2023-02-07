@@ -648,6 +648,7 @@
 
 @media (max-width: 990px) {
 
+
   /*Hero Section */
   .object1Hero__bg {
     object-position: center !important;
@@ -671,5 +672,9 @@
    position: absolute !important;
    top: 0 !important;
    left: 120px !important;
+  }
+
+  .object1Section1_contenido h2 {
+    display: none !important;
   }
 }
