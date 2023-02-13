@@ -942,9 +942,9 @@ footer {
     height: 100vh !important;
   }
 
-  .nav__item.socials {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
+  /*.nav__item.socials {*/
+  /*  display: flex;*/
+  /*  flex-direction: column;*/
+  /*  gap: 20px;*/
+  /*}*/
 }
