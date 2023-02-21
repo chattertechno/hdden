@@ -93,9 +93,11 @@
     </section> -->
         <section id="object1Section3">
             <div class="object1Section3_contenido">
-                <img class="object1Section3__photo1 gs_reveal gs_reveal_fromLeft" src="./assets/img/obj2covered.webp"
+               <!-- <img class="object1Section3__photo1 gs_reveal gs_reveal_fromLeft" src="./assets/img/obj2covered.webp"
                     alt="Object">
-                <img class="object1Section3__photo1 gs_reveal gs_reveal_fromRight" src="./assets/img/withbook.webp"
+                    <img class="object1Section3__photo1 gs_reveal gs_reveal_fromLeft" src="./assets/img/withbook.webp"
+                                        alt="Object"> --->
+                <img class="object1Section3__photo1 gs_reveal gs_reveal_fromRight" src="./assets/img/obj1covered.webp"
                     alt="Object">
                 <!-- <h2 class="object1Section3__titulo"><span>The Entombment Collection, Object 1,</span><a href="coming-soon.php">Coming soon...</a></h2> -->
                 <h2 class="object1Section3__titulo gs_reveal"><a href="entombment-object2.php">Go to Next Object</a></h2>
