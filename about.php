@@ -61,7 +61,7 @@
                         target="_blank">Founder/Director:
                         Javier Ramón</a>
                     <a href="https://www.linkedin.com/in/reneekrom/" target="_blank">Web 3.0 Developer: Renee Krom</a>
-                    <a href="https://github.com/alexthecurator" target="_blank">Front End Developer: alexthecurator</a>
+                    <a href="https://github.com/OkkashaAlly" target="_blank">Front End Developer: Okkasha Ally</a>
                     <a href="https://asomados.com/" target="_blank">Marketing: Asomados Marketing Digital</a>
                     <a href="http://vvorkroom.com/" target="_blank">Graphic Design: VVorkroom</a>
                     <a href="https://www.linkedin.com/in/albertselles/" target="_blank">Digital Media: Albert Selles</a>
