@@ -107,10 +107,10 @@
                 <div class="seccion3__contenido">
                     <a href="whitemap.php" class="btn seccion3__link">Read Whitemap</a>
                     <div class="seccion3__objeto obj1 an_revelar an_revelar_der">
-                        <img class="img" src="./assets/img/obj1covered.webp" alt="object1">
+                        <img class="img" src="./assets/img/withrose.webp" alt="object1">
                     </div>
                     <div class="seccion3__objeto obj2 an_revelar an_revelar_izq">
-                        <img class="img img1-obj2" src="./assets/img/obj2covered.webp" alt="object2">
+                        <img class="img img1-obj2" src="./assets/img/withbook.webp" alt="object2">
                     </div>
                 </div>
             </section><!-- end Section 3 -->

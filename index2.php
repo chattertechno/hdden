@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="seccion3__objeto obj2 an_revelar an_revelar_izq">
-                        <img class="img img1-obj2" src="./assets/img/collection/objs/photo_obj2.jpg" alt="object2">
+                        <img class="img img1-obj2" src="./assets/img/withbook.webp" alt="object2">
                         <!-- <a class="seccion3__objetoLink" href="entombment-object2.php">
                             The Entombment Collection <br> Object 2
                         </a> -->

@@ -44,7 +44,7 @@ function init() {
   // objeto-1 --------------------------------------------------------------------
   hfseccion3__objeto1.addEventListener("mouseover", (e) => {
     hfseccion3__objeto1.querySelector("img").src =
-      "./assets/img/collection/objs/photo_obj1-naranja.jpg";
+      "./assets/img/obj1_hover.jpg";
 
     gsap.to(hfseccion3__objeto1.querySelector("img"), {
       duration: 0.4,
@@ -57,7 +57,7 @@ function init() {
 
   hfseccion3__objeto1.addEventListener("mouseleave", (e) => {
     hfseccion3__objeto1.querySelector("img").src =
-      "./assets/img/collection/objs/photo_obj1.jpg";
+      "./assets/img/withrose.webp";
     gsap.to(hfseccion3__objeto1.querySelector("img"), {
       duration: 0.4,
       delay: 0.1,
@@ -74,7 +74,7 @@ function init() {
   // objeto-2 --------------------------------------------------------------------
   hfseccion3__objeto2.addEventListener("mouseover", (e) => {
     hfseccion3__objeto2.querySelector("img").src =
-      "./assets/img/collection/objs/photo_obj2-naranja.jpg";
+      "./assets/img/obj2_hover.jpg";
 
     gsap.to(hfseccion3__objeto2.querySelector("img"), {
       duration: 0.4,
@@ -86,7 +86,7 @@ function init() {
   });
   hfseccion3__objeto2.addEventListener("mouseleave", (e) => {
     hfseccion3__objeto2.querySelector("img").src =
-      "./assets/img/collection/objs/photo_obj2.jpg";
+      "./assets/img/withbook.webp";
     gsap.to(hfseccion3__objeto2.querySelector("img"), {
       duration: 0.4,
       delay: 0.1,
