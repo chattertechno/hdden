@@ -2377,4 +2377,37 @@ body {
   .mt-20 {
     margin-top: 20px
   }
+
+  .componente {
+    overflow-y: auto !important;
+    height: 108vh !important;
+    padding-top: 100px !important;
+  }
+
+  /*Modal 1 */
+  .componente-1__contenido h3,
+  .componente-2__contenido h3,
+  .componente-3__contenido h3,
+  .componente-4__contenido h3 {
+    margin: 23px 0 !important;
+  }
+
+  /*Modal 2*/
+  .componente-2__dao-img {
+    display: none !important;
+  }
+
+  .componente-2__governance-methods div p {
+    margin-top: 40px !important;
+  }
+
+  /*Modal 4 */
+  .componente-4 {
+    padding-top: 230px !important;
+  }
+
+  /*MODAL CLOSE BTN*/
+  .componente .componente_cerrar {
+    z-index: 10 !important;
+  }
 }
